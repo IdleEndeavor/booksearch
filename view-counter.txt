@@ -1,0 +1,3 @@
+https://api.countapi.xyz/create?namespace=ravebooksearch&key=ravebooksearch&value=0
+https://api.countapi.xyz/get/ravebooksearch/ravebooksearch
+https://api.countapi.xyz/update/ravebooksearch/ravebooksearch/?amount=1

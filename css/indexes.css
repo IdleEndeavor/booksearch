@@ -1,0 +1,215 @@
+@import url(https://fonts.googleapis.com/css?family=Poiret+One|Varela+Round);
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+html, body {
+  margin: 0;
+  padding: 0; 
+  background-color: #121212;
+}
+
+/*Slideout Sidebar*/
+  .toggle {
+  text-decoration: none;
+  font-size: 2em;
+  color: white;
+  -webkit-transition: all 0.15s ease-out 0;
+  -moz-transition: all 0.15s ease-out 0;
+  transition: all 0.45s ease-out 0;
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  z-index: 1;
+  cursor: pointer;
+  }
+
+  .sidebar {
+  position: fixed;
+  top: 0px;
+  bottom: 0px;
+  left: -190px;
+  -webkit-transition: all 0.15s ease-out 0;
+  -moz-transition: all 0.15s ease-out 0;
+  transition: all 0.15s ease-out 0;
+  width: 8rem;
+  padding: 1.5em;
+  background: black; 
+  }
+
+  .sidebar img {
+    width: 80px;
+    display: block;
+    margin: auto;
+  }
+
+  .sidebar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0; 
+  }
+
+  .sidebar li a {
+    color: white;
+    font-family: 'Roboto';
+    margin: 0;
+    margin-bottom: 16px;
+    cursor: pointer;
+    text-decoration: none;
+    line-height: 200%;
+    font-size: 18px;
+  }
+
+  .sidebar h4 {
+    margin: 0;
+    padding: 0; 
+    color: white;
+    font-family: 'Roboto';
+    bottom: 10px;
+    width: 100%;
+    position: fixed;
+  }
+
+  .sidebar a:hover {
+    color: gray; 
+  }
+
+  #slide:checked + .container .sidebar {
+  left: 0px;
+  transition: 0.5s;
+   }
+
+  #slide:checked + .container .toggle {
+  left: 200px;
+  transition: 0.5s;
+   }
+
+
+  #slide {
+  display: none; 
+  }
+
+  .attribute-title {
+    color: white;
+    font-family: 'Roboto';
+  }
+
+/*Search Box*/
+  .search {
+    text-align: centre;
+    padding-top: 150px;
+    width: auto;
+    width: 60%;
+    margin: 0 auto 0 auto;
+    font-family: 'Roboto';
+    animation: slidein 0.5s ease;
+  }
+
+  .search h1 {
+    font-size: 100px;
+    color: white;
+  }
+
+  .search h2 {
+    font-size: 60px;
+    color: white;
+  }
+
+  .search p {
+    font-size: 25px;
+    color: white;
+  }
+
+  .search h3 {
+    color: white;
+  }
+
+  .search h3 :visited {
+    color: white;
+  }
+
+  .search h3 :hover {
+    color: gray;
+  }
+
+  .search img {
+    display: block;
+    margin: 0 auto 0 0;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    animation: slidein 0.5s ease;
+    box-shadow: 0 0 10px black;
+  }
+
+/*Indexed Sites List*/
+  #sitesi {
+    text-align: center;
+  }
+
+  #img1-1 {
+    width: 40%;
+    float: left;
+    text-align: center;
+  }
+  #img1-2 {
+    width: 40%;
+    float: right;
+    text-align: center;
+  }
+  #img2-1 {
+    width: 40%;
+    float: left;
+    text-align: center;
+  }
+  #img2-2 {
+    width: 40%;
+    float: right;
+    text-align: center;
+  }
+  #img3-1 {
+    width: 40%;
+    float: left;
+    text-align: center;
+  }
+  #img3-2 {
+    width: 40%;
+    float: right;
+    text-align: center;
+  }
+
+/*Animations*/
+  @keyframes fadein{
+    from{
+      opacity: 0%;
+    }
+    to{
+      opacity: 100%;
+    }
+  }
+
+  @keyframes slidein{
+    0%{
+      transform: translateY(-250px);
+    }
+    100%{
+      transform: translateY(0px);
+    }
+  }
+
+  @keyframes slideup {
+    0%{
+      transform: translateX(-250px);
+    }
+    100%{
+      transform: translateX(0px);
+    }
+  }
+
+.topimg {
+  float: right;
+  width: 100px;
+  height: auto;
+  margin-top: 10px;
+  margin-right: 10px;
+  background-position: centre;
+  animation: slidein 0.5s ease;
+}

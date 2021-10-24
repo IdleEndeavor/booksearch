@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Rave eBook Search</title>
+	<link rel="icon" type="text/css" href="img/favicon.png">
+	<!-- CSS Import -->
+	<link rel="stylesheet" type="text/css" href="css/search.css">
+	<meta property="og:url" content="http://idleendeavor.github.io/booksearch" />
+	<meta property="og:type" content="search-page" />
+	<meta property="og:title" content="Rave eBook Search Engine" />
+	<meta property="og:description" content="Find the safest free download links to your favorite books" />
+	<meta property="og:image" content="https://idleendeavor.github.io/booksearch/img/favicon.png" />
+</head>
+<body>
+
+<!-- Slideout Sidebar -->
+	<input type="checkbox" id="slide" name="" value=""/>
+		<div class="container">
+			<label for="slide" class="toggle">☰</label>
+			<nav class="sidebar"> 
+				<ul>
+					<img src="img/favicon.png" onclick="location.href='index.html';">
+					<li><a href="terms.html"> Terms of Use </a></li>
+					<h5 id="foundcounterno" class="count">0</h5>
+					<h5 id="foundcounter">eBooks Found</h5>
+					<h4>Copyright <script type="text/javascript">document.write(new Date().getFullYear());</script><br>IdleEndeavor</h4>
+				</ul>
+			</nav>
+		</div>
+
+	<script type="text/javascript">
+		function updateCounter() {
+		    fetch('https://api.countapi.xyz/update/ravebooksearch/ravebooksearch/?amount=1')
+		        .then(res => res.json())
+		        .then(data => counterElement.innerHTML = data.value)
+		}
+
+		updateCounter()
+
+		counterElement = document.getElementsByClassName('count')[0];
+	</script>
+
+<!-- Search Box -->
+	<div id="search-box" class="search">
+	<img src="img/search-logo.png">
+	   <script>
+	     (function() {
+	       var cx = "001315572920893299880:mcnnf1udq8e";
+	       var gcse = document.createElement("script");
+	       gcse.type = "text/javascript";
+	       gcse.async = true;
+	       gcse.src = "https://cse.google.com/cse.js?cx=" + cx;
+	       var s = document.getElementsByTagName("script")[0];
+	       s.parentNode.insertBefore(gcse, s);
+	     })();
+	     window.onload = function()
+	     { 
+	       var searchBox =  document.getElementById("gsc-i-id1");
+	       searchBox.placeholder="Search for eBooks";
+	       searchBox.title="Rave eBook Search Engine"; 
+	     }
+	   </script>
+	   <gcse:search></gcse:search>
+	</div>
+
+</body>
+</html>
