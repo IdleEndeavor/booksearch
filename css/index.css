@@ -393,10 +393,6 @@ html, body {
     transition: unset !important;
   }
 
-  .at-tjin-element .addthis-smartlayers .addthis-animated .slideInRight {
-    transform: none !important;
-  }
-
 /* FAB Wheel */
 	.adminActions {
 	  position: fixed;
