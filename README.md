@@ -3,9 +3,9 @@ Rave is a simple search engine that assists in the discovery of free eBook downl
 All of the websites listed by the Rave eBook search engine have been thoroughly verified to ensure that they do not contain any malware or viruses.
 Rave search engine is based on Google's custom search technology.
 
-![Screenshot of Rave Game Search Engine Homepage](img/ravesearch-homepage.png)
+![Screenshot of Rave Game Search Engine Homepage](img/ravesearch-homepage-pic.png)
 
-![Screenshot of Rave Game Search Engine Homepage Dashboard](img/ravesearch-homepage-dashboard.png)
+![Screenshot of Rave Game Search Engine Homepage Dashboard](img/ravesearch-homepage-dashboard-pic.png)
 
 # Features
 - Assists in the finding of free ebook download links
