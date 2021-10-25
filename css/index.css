@@ -1,0 +1,386 @@
+@import url(https://fonts.googleapis.com/css?family=Poiret+One|Varela+Round);
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: #121212;
+  height: 100%;
+}
+
+.maindiv {
+	margin: auto;
+	position: relative;
+	text-align: left;
+	top: 25%;
+	width: 50%;
+}
+
+.maindiv img {
+	max-width: 50%;
+}
+
+.searchlogo {
+	text-align: center;
+}
+
+@media (max-width: 600px) {
+	.maindiv {
+		margin: auto;
+		position: relative;
+		text-align: left;
+		top: 25%;
+		width: 90%;
+	}
+
+	.maindiv img {
+		max-width: 85%;
+	}
+
+	.sidebar {
+		visibility: hidden;
+	}
+
+	.toggle {
+		visibility: hidden;
+	}
+
+}
+
+/* Search Box */
+
+  .searchbox {
+	width: 60%;
+  
+  }
+
+  .search {
+    text-align: centre;
+    padding-top: 150px;
+    width: auto;
+    width: 60%;
+    margin: 0 auto 0 auto;
+    animation: slidein 0.3s ease;
+  }
+
+  .search img {
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+    height: auto;
+    margin-bottom: -30px;
+    animation: slidein 0.3s ease;
+  }
+
+  .gsc-search-button .gsc-search-button-v2 {
+    border-radius: 50px;
+    border-color: #12229d;
+    background-color: #12229d;
+    font-family: 'Roboto';
+    margin: auto;
+  }
+
+  .gsc-input-box input.gsc-input, .gsc-input-box, .gsc-input-box-hover, .gsc-input-box-focus {
+    border-radius: 20px !important;
+    border-color: #12229d !important;
+    border-width: 5px !important;
+    background-color: #121212 !important;
+    color: white;
+    font-family: 'Roboto';
+    font-size: 20px;
+  }
+
+  .gsc-input-box {
+    box-shadow: 0 0 10px black;
+  }
+
+  button.gsc-search-button {
+    padding:10px !important;
+    background-color: #12229d;
+    box-shadow: 0 0 10px black;
+    height: 50px;
+    width: 50px;
+  }
+
+  .gsc-result-info {
+    display: none;
+  }
+
+  .gs-webResult {
+    padding: 1.5em;
+  }
+
+  .gsc-thumbnail {
+    display: none;
+  }
+
+  .gsc-cursor-page {
+    font-size: 1.5em;
+    padding: 4px 8px;
+  }
+
+  .gs-snippet {
+    display: none;
+  }
+
+  .gs-title a {
+    font-size: 1.5em;
+  }
+
+  .gcsc-more-maybe-branding-root {
+    display: none;
+  }
+
+  .gsc-orderby {
+    display: none;
+  }
+
+  .gsc-control-cse {
+    background-color: transparent !important;
+    border-color: transparent !important;
+  }
+
+  .gs-webResult.gs-result a.gs-title:link, .gs-webResult.gs-result a.gs-title:link b, .gs-imageResult a.gs-title:link, .gs-imageResult a.gs-title:link b {
+    color: white !important;
+    font-size: 20px;
+  }
+
+  .gs-promotion .gs-visibleUrl, .gs-webResult .gs-visibleUrl {
+    color: green !important;
+    font-size: 15px;
+  }
+
+  .gsc-webResult.gsc-result, .gsc-results .gsc-imageResult {
+    background-color: #121212 !important;
+    border-color: #121212 !important;
+    box-shadow: 0 0 10px black;
+  }
+
+  .gsc-above-wrapper-area {
+    border-bottom: black !important;
+  }
+
+  .gsc-cursor-box .gs-bidi-start-align {
+    background-color: black !important;
+  }
+
+  .gs-spelling .gs-spelling-original {
+    color: white !important;
+  }
+
+  .gsc-adBlock {
+    display: none !important;
+  }
+
+  .gsst_a .gscb_a {
+  	color: #12229d !important;
+    cursor: pointer;
+  }
+
+/* No Javascript Warning */
+	#noscript-warning {
+	    position: fixed;
+	    top: 0;
+	    left: 0;
+	    width: 100%;
+	    text-align: center;
+	    font-weight: bold;
+	    padding: 5px 0;
+	    color: white;
+	    background-color: red;
+	}
+
+/*Slideout Sidebar*/
+  .toggle {
+  text-decoration: none;
+  font-size: 2em;
+  color: white;
+  -webkit-transition: all 0.15s ease-out 0;
+  -moz-transition: all 0.15s ease-out 0;
+  transition: all 0.45s ease-out 0;
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  z-index: 1;
+  cursor: pointer;
+  animation: slidein 0.3s ease-in;
+  }
+
+  .sidebar {
+  position: fixed;
+  top: 0px;
+  bottom: 0px;
+  left: -190px;
+  -webkit-transition: all 0.15s ease-out 0;
+  -moz-transition: all 0.15s ease-out 0;
+  transition: all 0.15s ease-out 0;
+  width: 8rem;
+  padding: 1.5em;
+  background: black; 
+  box-shadow: 0 0 10px black;
+  animation: slidein 0.3s ease-in;
+  }
+
+  .sidebar img {
+    width: 80px;
+    display: block;
+    margin: auto;
+  }
+
+  .sidebar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0; 
+  }
+
+  .sidebar li a {
+    color: white;
+    font-family: 'Roboto';
+    margin: 0;
+    margin-bottom: 16px;
+    cursor: pointer;
+    text-decoration: none;
+    line-height: 200%;
+    font-size: 18px;
+  }
+
+  .sidebar h4 {
+    margin: 0;
+    padding: 0; 
+    color: white;
+    font-family: 'Roboto';
+    bottom: 10px;
+    width: 100%;
+    position: fixed;
+  }
+
+  #foundcounter {
+    margin: 0 0 50px 0;
+    padding: 0; 
+    color: white;
+    font-family: 'Roboto';
+    bottom: 10px;
+    width: 100%;
+    font-size: 15px;
+    position: fixed;
+  }
+
+  #foundcounterno {
+    margin: 0 0 70px 0;
+    padding: 0; 
+    color: white;
+    font-family: 'Roboto';
+    bottom: 10px;
+    width: 100%;
+    font-size: 15px;
+    position: fixed;
+  }
+
+  .sidebar a:hover {
+    color: gray; 
+  }
+
+  #slide:checked + .container .sidebar {
+  left: 0px;
+  transition: 0.5s;
+   }
+
+  #slide:checked + .container .toggle {
+  left: 200px;
+  transition: 0.5s;
+   }
+
+
+  #slide {
+  display: none; 
+  }
+
+  .attribute-title {
+    color: white;
+    font-family: 'Roboto';
+  }
+
+/* FAB Wheel */
+	.adminActions {
+	  position: fixed;
+	  bottom: 35px; right: 35px;
+	}
+
+	  .adminButton {
+	    height: 60px;
+	    width: 60px;
+	    background-color: #12229d;
+	    border-radius: 50%;
+	    display: block;
+	    color: #fff;
+	    text-align: center;
+	    position: relative;
+	    z-index: 1;
+	  }
+
+	    .adminButton i {
+	      font-size: 22px;
+	    }
+
+	  .adminButtons {
+	    position: absolute;
+	    width: 100%;
+	    bottom: 120%;
+	    text-align: center;
+	  }
+
+	    .adminButtons a {
+	      display: block;
+	      width: 45px;
+	      height: 45px;
+	      border-radius: 50%;
+	      text-decoration: none;
+	      margin: 10px auto 0;
+	      line-height: 1.15;
+	      color: #fff;
+	      opacity: 0;
+	      visibility: hidden;
+	      position: relative;
+	      box-shadow: 0 0 5px 1px rgba(51, 51, 51, .3);
+	    }
+
+	      .adminButtons a:hover {
+	        transform: scale(1.05);
+	      }
+
+	      .adminButtons a:nth-child(1) {background-color: #ff5722; transition: opacity .2s ease-in-out .3s, transform .15s ease-in-out;}
+	      .adminButtons a:nth-child(2) {background-color: #03a9f4; transition: opacity .2s ease-in-out .25s, transform .15s ease-in-out;}
+	      .adminButtons a:nth-child(3) {background-color: #f44336; transition: opacity .2s ease-in-out .2s, transform .15s ease-in-out;}
+	      .adminButtons a:nth-child(4) {background-color: #4CAF50; transition: opacity .2s ease-in-out .15s, transform .15s ease-in-out;}
+
+	      .adminActions a i {
+	        position: absolute;
+	        top: 50%; left: 50%;
+	        transform: translate(-50%, -50%);
+	      }
+
+	  .adminToggle {
+	    -webkit-appearance: none;
+	    position: absolute;
+	    border-radius: 50%;
+	    top: 0; left: 0;
+	    margin: 0;
+	    width: 100%;
+	    height: 100%;
+	    cursor: pointer;
+	    background-color: transparent;
+	    border: none;
+	    outline: none;
+	    z-index: 2;
+	    transition: box-shadow .2s ease-in-out;
+	    box-shadow: 0 3px 5px 1px rgba(51, 51, 51, .3);
+	  }
+
+	    .adminToggle:hover {
+	      box-shadow: 0 3px 6px 2px rgba(51, 51, 51, .3);
+	    }
+
+	    .adminToggle:checked ~ .adminButtons a {
+	      opacity: 1;
+	      visibility: visible;
+	    }

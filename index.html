@@ -2,31 +2,53 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>Rave eBook Search</title>
+
+	<title>Rave eBook Search Engine</title>
+
+	<!-- Favicon Import -->
 	<link rel="icon" type="text/css" href="img/favicon.png">
+
 	<!-- CSS Import -->
-	<link rel="stylesheet" type="text/css" href="css/search.css">
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+
+	<!-- Share/Embed Content -->
 	<meta property="og:url" content="http://idleendeavor.github.io/booksearch" />
 	<meta property="og:type" content="search-page" />
 	<meta property="og:title" content="Rave eBook Search Engine" />
 	<meta property="og:description" content="Find the safest free download links to your favorite books" />
 	<meta property="og:image" content="https://idleendeavor.github.io/booksearch/img/favicon.png" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 </head>
+
+	<script src="https://kit.fontawesome.com/b0b50ca365.js" crossorigin="anonymous"></script>
+
+<!-- No Javascript Warning -->
+	<noscript> 
+		<div id="noscript-warning">Rave Game Search uses Javascript in order to provide its search results. Kindly enable Javascript on your browser and reload the page to restore usability to the website.</div>
+	</noscript>
+
 <body>
 
-<!-- Slideout Sidebar -->
+<!-- Slideout Menu -->
+
 	<input type="checkbox" id="slide" name="" value=""/>
+
 		<div class="container">
+
 			<label for="slide" class="toggle">☰</label>
-			<nav class="sidebar"> 
+
+			<nav class="sidebar">
+
 				<ul>
 					<img src="img/favicon.png" onclick="location.href='index.html';">
-					<li><a href="terms.html"> Terms of Use </a></li>
 					<h5 id="foundcounterno" class="count">0</h5>
 					<h5 id="foundcounter">eBooks Found</h5>
 					<h4>Copyright <script type="text/javascript">document.write(new Date().getFullYear());</script><br>IdleEndeavor</h4>
 				</ul>
+
 			</nav>
+
 		</div>
 
 	<script type="text/javascript">
@@ -39,12 +61,21 @@
 		updateCounter()
 
 		counterElement = document.getElementsByClassName('count')[0];
+
 	</script>
 
 <!-- Search Box -->
-	<div id="search-box" class="search">
-	<img src="img/search-logo.png">
-	   <script>
+
+	<div class="maindiv">
+
+		<div class="searchlogo">
+
+			<img class="searchlogo" src="img/search-logo.png">
+
+		</div>
+
+		<script>
+
 	     (function() {
 	       var cx = "001315572920893299880:mcnnf1udq8e";
 	       var gcse = document.createElement("script");
@@ -57,12 +88,34 @@
 	     window.onload = function()
 	     { 
 	       var searchBox =  document.getElementById("gsc-i-id1");
-	       searchBox.placeholder="Search for eBooks";
+	       searchBox.placeholder="Search for your favourite eBooks";
 	       searchBox.title="Rave eBook Search Engine"; 
 	     }
+
 	   </script>
-	   <gcse:search></gcse:search>
+
+	   <gcse:search class="searchbox"></gcse:search>
+
+	</div>
+
+<!-- FAB Wheel -->
+
+	<div class="adminActions">
+
+		<input type="checkbox" name="adminToggle" class="adminToggle" />
+
+		<a class="adminButton" href="#!"><i class="fas fa-info"></i></a>
+
+		<div class="adminButtons">
+
+			<a href="https://github.com/IdleEndeavor/booksearch" title="GitHub"><i class="fab fa-github"></i></a>
+			<a href="https://github.com/IdleEndeavor/booksearch#terms-of-use" title="Terms"><i class="fas fa-file-signature"></i></a>
+			<a href="https://github.com/IdleEndeavor/booksearch#privacy-policy" title="Privacy"><i class="fas fa-lock"></i></a>
+
+		</div>
+
 	</div>
 
 </body>
+
 </html>
