@@ -116,7 +116,7 @@ html, body {
 
   .gsc-cursor-page {
     font-size: 1.5em;
-    padding: 4px 8px;
+    padding: 5px 10px !important;
   }
 
   .gs-snippet {
@@ -132,6 +132,10 @@ html, body {
   }
 
   .gsc-orderby {
+    display: none;
+  }
+
+  .gsc-snippet-metadata {
     display: none;
   }
 
@@ -152,8 +156,12 @@ html, body {
 
   .gsc-webResult.gsc-result, .gsc-results .gsc-imageResult {
     background-color: #121212 !important;
-    border-color: #121212 !important;
-    box-shadow: 0 0 10px black;
+    border-color: #12229d !important;
+  }
+
+  .gsc-webResult.gsc-result {
+    border: none !important;
+    border-bottom: 5px solid #12229d !important;
   }
 
   .gsc-above-wrapper-area {
@@ -162,10 +170,47 @@ html, body {
 
   .gsc-cursor-box .gs-bidi-start-align {
     background-color: black !important;
+    border-radius: 20px;
+  }
+
+  .gsc-results .gsc-cursor-box {
+    margin: 15px !important;
+    background-color: transparent !important;
   }
 
   .gs-spelling .gs-spelling-original {
     color: white !important;
+  }
+
+  .gsc-results .gsc-cursor-box .gsc-cursor-page {
+    border-color: #12229d !important;
+    border-radius: 25px !important;
+    background-color: #12229d !important;
+    color: white !important;
+    margin: 5px;
+  }
+
+  .gsc-results .gsc-cursor-box .gsc-cursor-current-page {
+    border-color: #12229d !important;
+    background-color: white !important;
+    color: #12229d !important;
+    border: 5px solid !important;
+    border-radius: 20px !important;
+    padding: 5px 10px !important;
+  }
+
+  .gsc-results .gsc-cursor-box {
+    text-align: center !important;
+    margin: 20px !important;
+  }
+
+  .gsc-cursor-next-page {
+    color: white !important;
+    font-weight: bold !important;
+  }
+
+  .gsc-results {
+    background-color: transparent !important;
   }
 
   .gsc-adBlock {
@@ -175,6 +220,29 @@ html, body {
   .gsst_a .gscb_a {
   	color: #12229d !important;
     cursor: pointer;
+  }
+
+  .gcsc-find-more-on-google-root {
+    display: none;
+  }
+
+  .gsc-results .gsc-cursor {
+    fill: white !important;
+  }
+
+  @media (max-width: 600px) {
+    .gsc-results .gsc-cursor-box .gsc-cursor-page {
+      border-color: #12229d !important;
+      border-radius: 25px !important;
+      background-color: #12229d !important;
+      color: white !important;
+      margin: auto !important;
+    }
+
+    .gsc-results .gsc-cursor-box {
+      border: 3px solid #12229d !important;
+      border-radius: 20px !important;
+    }
   }
 
 /* No Javascript Warning */
