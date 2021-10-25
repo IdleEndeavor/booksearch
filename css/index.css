@@ -381,6 +381,10 @@ html, body {
     font-family: 'Roboto';
   }
 
+  .at-tjin-title {
+    visibility: hidden;
+  }
+
 /* FAB Wheel */
 	.adminActions {
 	  position: fixed;
