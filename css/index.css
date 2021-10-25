@@ -200,7 +200,6 @@ html, body {
   }
 
   .gsc-results .gsc-cursor-box {
-    text-align: center !important;
     margin: 20px !important;
   }
 
@@ -219,6 +218,19 @@ html, body {
 
   .gsc-results .gsc-cursor {
     fill: white !important;
+  }
+
+  .gsc-completion-container {
+    background: #121212 !important;
+    color: white !important;
+    border-color: #12229d !important;
+    border-radius: 10px !important;
+    padding: 5px !important;
+  }
+
+  .gssb_a:hover {
+    background: #12229d !important;
+    color: white !important;
   }
 
   @media (max-width: 600px) {
