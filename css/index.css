@@ -385,6 +385,10 @@ html, body {
     visibility: hidden;
   }
 
+  .at-resp-share-element {
+    text-align: center;
+  }
+
 /* FAB Wheel */
 	.adminActions {
 	  position: fixed;
