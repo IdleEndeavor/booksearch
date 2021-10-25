@@ -74,7 +74,8 @@ Rave search engine is based on Google's custom search technology.
 - ikindlebooks.com
 ## Audiobooks (to be released)
 
-# Terms of Use
+# Additional Info
+## Terms of Use
 The purpose of this website is to compile a list of ebook download links from external websites.
 The user is responsible for any actions done in response to the Rave eBook Search Engine's results.
 With its information, this website does not advocate or discourage any behaviors. This website contains only pure, unfettered material (excluding logos and other copyrighted content
