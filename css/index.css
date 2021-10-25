@@ -382,11 +382,15 @@ html, body {
   }
 
   .at-tjin-title {
-    visibility: hidden;
+    display: none !important;
   }
 
   .at-resp-share-element {
-    text-align: center;
+    text-align: center !important;
+  }
+
+  .at-tjin-element .at-tjin-btn {
+    transition: unset !important;
   }
 
 /* FAB Wheel */
