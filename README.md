@@ -25,6 +25,22 @@ Rave search engine is based on Google's custom search technology.
 - ebookbb.com
 - ibookpile.net
 - manybooks.net
+- freebooksmania.com
+- rich-business.com
+- sites.google.com/prod/view/the-free-digital-library
+- freebooks.com/
+- ebooklobby.com
+- bookspics.com
+- planetpublish.com
+- free-ebooks.net
+- freetechbooks.com
+- freecomputerbooks.com
+- onlinebooks.library.upenn.edu
+- knowfree.tradepub.com
+- ebooks.adelaide.edu.au
+- boyalbooks.com
+- grtbooks.com
+- baen.com
 
 # Terms of Use
 The purpose of this website is to compile a list of ebook download links from external websites.
