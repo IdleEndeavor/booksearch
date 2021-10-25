@@ -14,33 +14,63 @@ Rave search engine is based on Google's custom search technology.
 - Uses Google custom search engine to provide results quickly
 - Simple, material UI for easy use
 
-# Websites Indexed
-- gutenberg.org
-- tiny-files.com
-- allbooksworld.com
-- b-ok.cc
-- epdf.tips
-- download-books.com
-- ebook4expert.org
-- ebookbb.com
-- ibookpile.net
+# Websites Indexed (currently 57)
 - manybooks.net
-- freebooksmania.com
-- rich-business.com
+- freebooks.com
+- ibookpile.net
 - sites.google.com/prod/view/the-free-digital-library
-- freebooks.com/
+- topfreebook.org
+- rich-business.com
+- freebooksmania.com
+- epdf.tips
+- oceanofpdf.com
+- ebookbb.com
+- ebook4expert.org
+- download-books.com
+- b-ok.cc
+- tiny-files.com
+- gutenberg.org
+- allbooksworld.com
 - ebooklobby.com
 - bookspics.com
-- planetpublish.com
+- planetpublic.com
 - free-ebooks.net
 - freetechbooks.com
 - freecomputerbooks.com
 - onlinebooks.library.upenn.edu
 - knowfree.tradepub.com
+- feedbooks.com
 - ebooks.adelaide.edu.au
-- boyalbooks.com
+- loyalbooks.com
 - grtbooks.com
 - baen.com
+- freebookcentre.net
+- ebook3000.net
+- freebookspot.com
+- bygosh.com
+- bookgoldmine.com
+- libgen.fun
+- libgen.rs/fiction
+- ebookee.com
+- pdfget.com
+- yudhacookbook.my.id
+- epuclibre.org
+- espaebook2.com
+- standardebooks.org/books
+- getcomics.info
+- sanet.st/full
+- ebook-hunter.org/books
+- ebookelo.com
+- freefullpdf.com
+- snewd.com
+- kupdf.net
+- pdfroom.com
+- lelibros.online
+- lelivros.love
+- trantor.is
+- flibusta.site
+- 3lib.net
+- ikindlebooks.com
 
 # Terms of Use
 The purpose of this website is to compile a list of ebook download links from external websites.
