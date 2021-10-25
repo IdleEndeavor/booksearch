@@ -15,6 +15,7 @@ Rave search engine is based on Google's custom search technology.
 - Simple, material UI for easy use
 
 # Websites Indexed (currently 57)
+## eBooks
 - manybooks.net
 - freebooks.com
 - ibookpile.net
@@ -71,6 +72,7 @@ Rave search engine is based on Google's custom search technology.
 - flibusta.site
 - 3lib.net
 - ikindlebooks.com
+## Audiobooks (to be released)
 
 # Terms of Use
 The purpose of this website is to compile a list of ebook download links from external websites.
