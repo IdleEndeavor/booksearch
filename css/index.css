@@ -204,11 +204,6 @@ html, body {
     margin: 20px !important;
   }
 
-  .gsc-cursor-next-page {
-    color: white !important;
-    font-weight: bold !important;
-  }
-
   .gsc-results {
     background-color: transparent !important;
   }
@@ -220,10 +215,6 @@ html, body {
   .gsst_a .gscb_a {
   	color: #12229d !important;
     cursor: pointer;
-  }
-
-  .gcsc-find-more-on-google-root {
-    display: none;
   }
 
   .gsc-results .gsc-cursor {
@@ -240,9 +231,19 @@ html, body {
     }
 
     .gsc-results .gsc-cursor-box {
-      border: 3px solid #12229d !important;
+      border: none !important;
       border-radius: 20px !important;
     }
+
+    .gsc-cursor-next-page {
+      color: white !important;
+      font-weight: bold !important;
+    }
+
+    .gcsc-find-more-on-google-root {
+      display: none;
+    }
+
   }
 
 /* No Javascript Warning */
