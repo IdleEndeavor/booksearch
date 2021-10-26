@@ -477,3 +477,31 @@ html, body {
 	      opacity: 1;
 	      visibility: visible;
 	    }
+
+/* Switcher */
+
+.switcherdiv {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  margin: 10px;
+  font-size: 2em;
+}
+
+.switcher {
+  margin: 0 5px;
+  padding: 10px 10px;
+  border-radius: 20px;
+  width: auto;
+  border: 3px solid #12229d;
+  background-color: #121212;
+  color: white;
+  box-shadow: 0 0 10px black
+}
+
+#active {
+  border: 3px solid #12229d;
+  border-color: #12229d;
+  background-color: #12229d;
+  color: white;
+}
