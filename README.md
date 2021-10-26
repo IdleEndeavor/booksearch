@@ -19,43 +19,25 @@ Rave search engine is based on Google's custom search technology.
 - manybooks.net
 - freebooks.com
 - ibookpile.net
-- sites.google.com/prod/view/the-free-digital-library
-- topfreebook.org
-- rich-business.com
-- freebooksmania.com
 - epdf.tips
 - oceanofpdf.com
 - ebookbb.com
-- ebook4expert.org
-- download-books.com
-- b-ok.cc
-- tiny-files.com
+- b-ok.asia
 - gutenberg.org
 - allbooksworld.com
 - ebooklobby.com
-- bookspics.com
-- planetpublic.com
-- free-ebooks.net
 - freetechbooks.com
 - freecomputerbooks.com
 - onlinebooks.library.upenn.edu
-- knowfree.tradepub.com
-- feedbooks.com
-- ebooks.adelaide.edu.au
-- loyalbooks.com
 - grtbooks.com
 - baen.com
-- freebookcentre.net
-- ebook3000.net
-- freebookspot.com
 - bygosh.com
 - bookgoldmine.com
 - libgen.fun
 - libgen.rs/fiction
-- ebookee.com
 - pdfget.com
 - yudhacookbook.my.id
-- epuclibre.org
+- epublibre.org
 - espaebook2.com
 - standardebooks.org/books
 - getcomics.info
@@ -66,13 +48,11 @@ Rave search engine is based on Google's custom search technology.
 - snewd.com
 - kupdf.net
 - pdfroom.com
-- lelibros.online
 - lelivros.love
 - trantor.is
-- flibusta.site
-- 3lib.net
 - ikindlebooks.com
 ## Audiobooks (to be released)
+- loyalbooks.com
 
 # Additional Info
 ## Terms of Use
