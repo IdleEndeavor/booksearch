@@ -31,6 +31,19 @@
 
 <body>
 
+<!-- Preloader -->
+
+	<div class="preloader_bg">
+	    <div class="preloader"></div>
+	</div>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script>
+        setTimeout(function(){
+            $('.preloader_bg').fadeToggle();
+        }, 1500);
+    </script>
+
 <!-- Slideout Menu -->
 
 	<input type="checkbox" id="slide" name="" value=""/>
@@ -77,8 +90,8 @@
 
 		<div class="switcherdiv">
 
-			<button class="switcher" id="active" onclick="location.href='index.html'">eBooks</button>
-			<button class="switcher" onclick="location.href='index-audiobooks.html'">Audiobooks</button>
+			<button class="switcher" id="active" onclick="location.href='index.html'" title="eBook Search">eBooks</button>
+			<button class="switcher" onclick="location.href='index-audiobooks.html'" title="Switch to Audiobook Search">Audiobooks</button>
 
 		</div>
 
@@ -102,9 +115,23 @@
 
 	   </script>
 
-	   <gcse:search class="searchbox"></gcse:search>        
+	   <gcse:search class="searchbox"></gcse:search>
 
-	   <div class="addthis_inline_share_toolbox"></div>
+	   <p>Rave Book Search helps you find the best Completely Free and Safe Download Links to your favourite eBooks/Audiobooks.<br>Happy Reading!<br>If you like our service; kindly share it with your friends to help keep this project afloat.</p>    
+
+	   <div class="share">
+
+		   <div class="share-button">
+
+		   	<a href="https://twitter.com/intent/tweet?source=http%3A%2F%2Fravebooksearch.com&text=Rave%20Book%20Download%20Link%20Search%20Engine:%20http%3A%2F%2Fravebooksearch.com" target="_blank" title="Tweet" class="fab fa-twitter"></a>  	
+		   	<a href="mailto:?subject=Rave%20Book%20Download%20Link%20Search%20Engine&body=Find%20free%20and%20safe%20download%20links%20to%20all%20your%20favourite%20books:%20http%3A%2F%2Fravebooksearch.com" target="_blank" title="Send email"><i class="fas fa-envelope"></i></a>
+		    <a href="http://www.reddit.com/submit?url=http%3A%2F%2Fravebooksearch.com&title=Rave%20Book%20Download%20Link%20Search%20Engine" target="_blank" title="Submit to Reddit"><i class="fab fa-reddit"></i></a>
+		    <a href="http://www.tumblr.com/share?v=3&u=http%3A%2F%2Fravebooksearch.com&quote=Rave%20Book%20Download%20Link%20Search%20Engine&s=" target="_blank" title="Post to Tumblr"><i class="fab fa-tumblr"></i></a>
+		    <a href="http://pinterest.com/pin/create/button/?url=http%3A%2F%2Fravebooksearch.com&media=https://ravebooksearch.com/img/ravesearch-homepage-pic.png&description=Find%20free%20and%20safe%20download%20links%20to%20all%20your%20favourite%20books" target="_blank" title="Pin it" class="fab fa-pinterest"></a>
+
+		   </div>
+
+	   </div>
 
 	   <div align="center">
 		<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9911043505807551"
@@ -129,19 +156,17 @@
 
 		<input type="checkbox" name="adminToggle" class="adminToggle" />
 
-		<a class="adminButton" href="#!"><i class="fas fa-info"></i></a>
+		<a class="adminButton" href="#!" title="Additional Information"><i class="fas fa-info"></i></a>
 
 		<div class="adminButtons">
 
-			<a href="https://github.com/IdleEndeavor/booksearch" title="GitHub"><i class="fab fa-github"></i></a>
-			<a href="https://github.com/IdleEndeavor/booksearch#terms-of-use" title="Terms"><i class="fas fa-file-signature"></i></a>
-			<a href="https://github.com/IdleEndeavor/booksearch#privacy-policy" title="Privacy"><i class="fas fa-lock"></i></a>
+			<a href="https://github.com/IdleEndeavor/booksearch" title="View on GitHub"><i class="fab fa-github"></i></a>
+			<a href="https://github.com/IdleEndeavor/booksearch#terms-of-use" title="Terms of Use"><i class="fas fa-file-signature"></i></a>
+			<a href="https://github.com/IdleEndeavor/booksearch#privacy-policy" title="Privacy Policy"><i class="fas fa-lock"></i></a>
 
 		</div>
 
 	</div>
-
-<script type="text/javascript" src="https://s7.addthis.com/js/300/addthis_widget.js#pubid=ra-61767ed319f04f59"></script>
 
 </body>
 
