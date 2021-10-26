@@ -242,6 +242,29 @@ html, body {
     color: white !important;
   }
 
+  .gsc-tabHeader {
+    border: 3px dotted #12229d !important;
+    border-bottom: none !important;
+    color: white !important;
+    background-color: #121212 !important;
+    font-size: 1.2em !important;
+    font-weight: bold !important;
+    line-height: 25px !important;
+    min-width: 54px !important;
+    padding: 0 5px !important;
+    text-align: center !important;
+    margin: 0 5px !important;
+  }
+
+  .gsc-tabsArea {
+    border-bottom: 5px solid #12229d !important;
+  }
+
+  .gsc-tabhActive {
+    background-color: #12229d !important;
+    border: 3px solid #12229d !important;
+  }
+
   @media (max-width: 600px) {
     .gsc-results .gsc-cursor-box .gsc-cursor-page {
       border-color: #12229d !important;
@@ -494,7 +517,7 @@ html, body {
     align-content: center !important;
     justify-content: center !important;
     margin: 10px !important;
-    font-size: 2em !important;
+    font-size: 1.2em !important;
   }
 
   .switcher {
@@ -506,6 +529,7 @@ html, body {
     background-color: #121212 !important;
     color: white !important;
     box-shadow: 0 0 10px black !important;
+    font-size: 0.75em !important;
   }
 
   #active {
