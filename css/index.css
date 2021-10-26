@@ -481,27 +481,27 @@ html, body {
 /* Switcher */
 
   .switcherdiv {
-    display: flex;
-    align-content: center;
-    justify-content: center;
-    margin: 10px;
-    font-size: 2em;
+    display: flex !important;
+    align-content: center !important;
+    justify-content: center !important;
+    margin: 10px !important;
+    font-size: 2em !important;
   }
 
   .switcher {
-    margin: 0 5px;
-    padding: 10px 10px;
-    border-radius: 20px;
-    width: auto;
-    border: 3px solid #12229d;
-    background-color: #121212;
-    color: white;
-    box-shadow: 0 0 10px black
+    margin: 0 5px !important;
+    padding: 10px 10px !important;
+    border-radius: 20px !important;
+    width: auto !important;
+    border: 3px solid #12229d !important;
+    background-color: #121212 !important;
+    color: white !important;
+    box-shadow: 0 0 10px black !important;
   }
 
   #active {
-    border: 3px solid #12229d;
-    border-color: #12229d;
-    background-color: #12229d;
-    color: white;
+    border: 3px solid #12229d !important;
+    border-color: #12229d !important;
+    background-color: #12229d !important;
+    color: white !important;
   }
