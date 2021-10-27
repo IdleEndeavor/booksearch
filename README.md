@@ -14,7 +14,7 @@ Rave search engine is based on Google's custom search technology.
 - Uses Google custom search engine to provide results quickly
 - Simple, material UI for easy use
 
-# Websites Indexed (currently 57)
+# Websites Indexed (currently 36)
 ## eBooks
 - manybooks.net
 - freebooks.com
@@ -51,6 +51,7 @@ Rave search engine is based on Google's custom search technology.
 - lelivros.love
 - trantor.is
 - ikindlebooks.com
+- dokumen.pub
 ## Audiobooks (to be released)
 - loyalbooks.com
 
