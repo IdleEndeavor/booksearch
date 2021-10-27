@@ -33,8 +33,8 @@ Rave search engine is based on Google's custom search technology.
   - Nickname: ras
   - URL: https://ravebooksearch.com/index-audiobooks.html?q=%s (please note that the '%s' keyword substitute may be different across browsers, kindly follow the instructions provided on your browser to replace if needed.) 
 
-# Websites Indexed (currently 36)
-## eBooks
+# Websites Indexed (currently 45)
+## eBooks (Currently 36)
 - manybooks.net
 - freebooks.com
 - ibookpile.net
