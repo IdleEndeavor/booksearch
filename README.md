@@ -1,20 +1,39 @@
-# Rave eBook Search Engine
-Rave is a simple search engine that assists in the discovery of free eBook download sites. It has a list of websites that are regularly updated and checked for eBook download links.
-All of the websites listed by the Rave eBook search engine have been thoroughly verified to ensure that they do not contain any malware or viruses.
+# Rave Book Search Engine
+Rave is a simple search engine that assists in the discovery of free eBook/Audiobook download sites. It has a list of websites that are regularly updated and checked for eBook/Audiobook download links.
+All of the websites listed by the Rave Book search engine have been thoroughly verified to ensure that they do not contain any malware or viruses.
 Rave search engine is based on Google's custom search technology.
 
-![Screenshot of Rave Game Search Engine Homepage](img/ravesearch-homepage-pic.png)
+![Screenshot of Rave Book Search Engine Homepage eBook](img/ravesearch-homepage-pic.png)
 
-![Screenshot of Rave Game Search Engine Homepage Dashboard](img/ravesearch-homepage-dashboard-pic.png)
+![Screenshot of Rave Book Search Engine Homepage Audiobook](img/ravesearch-homepage-audiobook-pic.png)
+
+![Screenshot of Rave Book Search Engine Homepage Dashboard](img/ravesearch-homepage-dashboard-pic.png)
 
 # Features
-- Assists in the finding of free ebook download links
-- Only indexes links that have been verified and confirmed to be virus-free.
+- Assists in the finding of free ebook/audiobook download links
+- Only indexes links confirmed to be virus/-free.
+- Supports direct searches via the URL
 - Shows the amount of searches/visits done on the rave search website
-- Uses Google custom search engine to provide results quickly
+- Uses Google search indexing to provide results quickly
 - Simple, material UI for easy use
 
-# Websites Indexed (currently 57)
+# Setting-up Direct URL Search
+## eBook Search
+1. Visit the Search Engine settings on your browser
+2. Click the '+', 'add new search engine' button (or an equivallent on your browser)
+3. Fill in the required information:
+  - Name: Rave eBook Search
+  - Nickname: rbs
+  - URL: https://ravebooksearch.com/index.html?q=%s (please note that the '%s' keyword substitute may be different across browsers, kindly follow the instructions provided on your browser to replace if needed.) 
+## Audiobook Search
+1. Visit the Search Engine settings on your browser
+2. Click the '+', 'add new search engine' button (or an equivallent on your browser)
+3. Fill in the required information:
+  - Name: Rave Audiobook Search
+  - Nickname: ras
+  - URL: https://ravebooksearch.com/index-audiobooks.html?q=%s (please note that the '%s' keyword substitute may be different across browsers, kindly follow the instructions provided on your browser to replace if needed.) 
+
+# Websites Indexed (currently 36)
 ## eBooks
 - manybooks.net
 - freebooks.com
@@ -51,8 +70,17 @@ Rave search engine is based on Google's custom search technology.
 - lelivros.love
 - trantor.is
 - ikindlebooks.com
-## Audiobooks (to be released)
+- dokumen.pub
+## Audiobooks (currently 9)
 - loyalbooks.com
+- xaudiobo0ks.com
+- audiobookbay.nl
+- audiboi.com
+- tokybook.com
+- goldenaudiobooks.com
+- galaxyaudiobook.com
+- audiobooklabs.com
+- audiobooks4soul.com
 
 # Additional Info
 ## Terms of Use
