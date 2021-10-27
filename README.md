@@ -33,8 +33,8 @@ Rave search engine is based on Google's custom search technology.
   - Nickname: ras
   - URL: https://ravebooksearch.com/index-audiobooks.html?q=%s (please note that the '%s' keyword substitute may be different across browsers, kindly follow the instructions provided on your browser to replace if needed.) 
 
-# Websites Indexed (currently 45)
-## eBooks (Currently 36)
+# Websites Indexed (Currently 48)
+## eBooks (Currently 35)
 - manybooks.net
 - freebooks.com
 - ibookpile.net
@@ -59,7 +59,6 @@ Rave search engine is based on Google's custom search technology.
 - epublibre.org
 - espaebook2.com
 - standardebooks.org/books
-- getcomics.info
 - sanet.st/full
 - ebook-hunter.org/books
 - ebookelo.com
@@ -71,7 +70,12 @@ Rave search engine is based on Google's custom search technology.
 - trantor.is
 - ikindlebooks.com
 - dokumen.pub
-## Audiobooks (currently 9)
+## Comics (Currently 4)
+- getcomics.info
+- zipcomic.com
+- newcomic.info
+- comics-all.com
+## Audiobooks (Currently 9)
 - loyalbooks.com
 - xaudiobo0ks.com
 - audiobookbay.nl
