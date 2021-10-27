@@ -16,12 +16,12 @@ Rave search engine is based on Google's custom search technology.
 - Simple, material UI for easy use
 
 # Setting-up Direct URL Search
-Visit the Search Engine settings on your browser
-Click the '+', 'add new search engine' button (or an equivallent on your browser)
-Fill in the required information
-Name: Rave Book Search
-Nickname: rbs
-URL: https://ravebooksearch.com/index.html?q=%s (please note that the '%s' keyword substitute may be different across browsers, kindly follow the instructions provided on your browser to replace if needed.) 
+1. Visit the Search Engine settings on your browser
+2. Click the '+', 'add new search engine' button (or an equivallent on your browser)
+3. Fill in the required information:
+  - Name: Rave Book Search
+  - Nickname: rbs
+  - URL: https://ravebooksearch.com/index.html?q=%s (please note that the '%s' keyword substitute may be different across browsers, kindly follow the instructions provided on your browser to replace if needed.) 
 
 # Websites Indexed (currently 36)
 ## eBooks
