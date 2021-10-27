@@ -70,6 +70,7 @@ Rave search engine is based on Google's custom search technology.
 - trantor.is
 - ikindlebooks.com
 - dokumen.pub
+- libgen.gs
 ## Comics (Currently 4)
 - getcomics.info
 - zipcomic.com
