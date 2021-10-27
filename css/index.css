@@ -234,7 +234,7 @@ html, body {
     color: white !important;
     border-color: #12229d !important;
     border-radius: 10px !important;
-    padding: 5px !important;
+    padding: 10px !important;
   }
 
   .gssb_a:hover {
@@ -262,7 +262,21 @@ html, body {
 
   .gsc-tabhActive {
     background-color: #12229d !important;
-    border: 3px solid #12229d !important;
+    border: 5px solid #12229d !important;
+  }
+
+  .gsc-control-cse .gsc-table-result {
+    font-family: roboto !important;
+    background: white !important;
+    border-radius: 5px !important;
+    margin: auto !important;
+    padding: 0 5px !important;
+    width: fit-content !important;
+    float: left !important;
+  }
+
+  .gs-webResult div.gs-visibleUrl {
+    color: lightgreen !important;
   }
 
   @media (max-width: 600px) {
