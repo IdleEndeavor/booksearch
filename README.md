@@ -9,10 +9,19 @@ Rave search engine is based on Google's custom search technology.
 
 # Features
 - Assists in the finding of free ebook/audiobook download links
-- Only indexes links that have been verified and confirmed to be virus-free.
+- Only indexes links confirmed to be virus/-free.
+- Supports direct searches via the URL
 - Shows the amount of searches/visits done on the rave search website
-- Uses Google custom search engine to provide results quickly
+- Uses Google search indexing to provide results quickly
 - Simple, material UI for easy use
+
+# Setting-up Direct URL Search
+Visit the Search Engine settings on your browser
+Click the '+', 'add new search engine' button (or an equivallent on your browser)
+Fill in the required information
+Name: Rave Book Search
+Nickname: rbs
+URL: https://ravebooksearch.com/index.html?q=%s (please note that the '%s' keyword substitute may be different across browsers, kindly follow the instructions provided on your browser to replace if needed.) 
 
 # Websites Indexed (currently 36)
 ## eBooks
