@@ -1,14 +1,14 @@
-# Rave eBook Search Engine
-Rave is a simple search engine that assists in the discovery of free eBook download sites. It has a list of websites that are regularly updated and checked for eBook download links.
-All of the websites listed by the Rave eBook search engine have been thoroughly verified to ensure that they do not contain any malware or viruses.
+# Rave Book Search Engine
+Rave is a simple search engine that assists in the discovery of free eBook/Audiobook download sites. It has a list of websites that are regularly updated and checked for eBook/Audiobook download links.
+All of the websites listed by the Rave Book search engine have been thoroughly verified to ensure that they do not contain any malware or viruses.
 Rave search engine is based on Google's custom search technology.
 
-![Screenshot of Rave Game Search Engine Homepage](img/ravesearch-homepage-pic.png)
+![Screenshot of Rave Book Search Engine Homepage](img/ravesearch-homepage-pic.png)
 
-![Screenshot of Rave Game Search Engine Homepage Dashboard](img/ravesearch-homepage-dashboard-pic.png)
+![Screenshot of Rave Book Search Engine Homepage Dashboard](img/ravesearch-homepage-dashboard-pic.png)
 
 # Features
-- Assists in the finding of free ebook download links
+- Assists in the finding of free ebook/audiobook download links
 - Only indexes links that have been verified and confirmed to be virus-free.
 - Shows the amount of searches/visits done on the rave search website
 - Uses Google custom search engine to provide results quickly
@@ -52,8 +52,16 @@ Rave search engine is based on Google's custom search technology.
 - trantor.is
 - ikindlebooks.com
 - dokumen.pub
-## Audiobooks (to be released)
+## Audiobooks (currently 9)
 - loyalbooks.com
+- xaudiobo0ks.com
+- audiobookbay.nl
+- audiboi.com
+- tokyobook.com
+- goldenaudiobooks.com
+- galaxyaudiobook.com
+- audiobooklabs.com
+- audiobooks4soul.com
 
 # Additional Info
 ## Terms of Use
