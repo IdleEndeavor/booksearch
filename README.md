@@ -57,7 +57,7 @@ Rave search engine is based on Google's custom search technology.
 - xaudiobo0ks.com
 - audiobookbay.nl
 - audiboi.com
-- tokyobook.com
+- tokybook.com
 - goldenaudiobooks.com
 - galaxyaudiobook.com
 - audiobooklabs.com
