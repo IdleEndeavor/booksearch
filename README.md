@@ -3,7 +3,9 @@ Rave is a simple search engine that assists in the discovery of free eBook/Audio
 All of the websites listed by the Rave Book search engine have been thoroughly verified to ensure that they do not contain any malware or viruses.
 Rave search engine is based on Google's custom search technology.
 
-![Screenshot of Rave Book Search Engine Homepage](img/ravesearch-homepage-pic.png)
+![Screenshot of Rave Book Search Engine Homepage eBook](img/ravesearch-homepage-pic.png)
+
+![Screenshot of Rave Book Search Engine Homepage Audiobook](img/ravesearch-homepage-audiobook-pic.png)
 
 ![Screenshot of Rave Book Search Engine Homepage Dashboard](img/ravesearch-homepage-dashboard-pic.png)
 
