@@ -32,8 +32,9 @@ All of the websites listed and indexed by the Rave Book Search Engine have been 
   - Nickname: ras
   - URL: https://ravebooksearch.com/index-audiobooks.html?q=%s (please note that the '%s' keyword substitute may be different across browsers, kindly follow the instructions provided on your browser to replace if needed.) 
 
-# Websites Indexed (Currently 49)
-## eBooks (Currently 35)
+# Websites Indexed (Currently 50)
+## eBooks (Currently 36)
+- paidshitforfree.com
 - manybooks.net
 - freebooks.com
 - ibookpile.net
