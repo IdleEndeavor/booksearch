@@ -32,7 +32,7 @@ All of the websites listed and indexed by the Rave Book Search Engine have been 
   - Nickname: ras
   - URL: https://ravebooksearch.com/index-audiobooks.html?q=%s (please note that the '%s' keyword substitute may be different across browsers, kindly follow the instructions provided on your browser to replace if needed.) 
 
-# Websites Indexed (Currently 50)
+# Websites Indexed (Currently 51)
 ## eBooks (Currently 36)
 - paidshitforfree.com
 - manybooks.net
@@ -76,7 +76,8 @@ All of the websites listed and indexed by the Rave Book Search Engine have been 
 - newcomic.info
 - comics-all.com
 - libgen.gs
-## Audiobooks (Currently 9)
+## Audiobooks (Currently 10)
+- paidshitforfree.com
 - loyalbooks.com
 - xaudiobo0ks.com
 - audiobookbay.nl
