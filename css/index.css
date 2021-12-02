@@ -37,6 +37,10 @@ a {
   color: white;
 }
 
+a :active {
+  color: white;
+}
+
 @media (max-width: 600px) {
 	.maindiv {
 		margin: auto;
