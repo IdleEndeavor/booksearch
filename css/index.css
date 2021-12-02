@@ -33,6 +33,10 @@ html, body {
   padding: 0;
 }
 
+a {
+  color: white;
+}
+
 @media (max-width: 600px) {
 	.maindiv {
 		margin: auto;
@@ -310,7 +314,7 @@ html, body {
 	    background-color: red;
 	}
 
-/*Slideout Sidebar*/
+/* Slideout Sidebar */
   .toggle {
   text-decoration: none;
   font-size: 2em;
