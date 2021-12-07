@@ -10,65 +10,54 @@ html, body {
 }
 
 .maindiv {
-	margin: auto;
-	position: relative;
-	text-align: left;
-	top: 25%;
-	width: 50%;
+  margin: auto;
+  position: relative;
+  text-align: left;
+  top: 25%;
+  width: 50%;
 }
 
 .maindiv img {
-	max-width: 50%;
+  max-width: 50%;
 }
 
 .searchlogo {
-	text-align: center;
-}
-
-.maindiv p {
-  font-size: 1em;
-  color: white;
   text-align: center;
-  margin: auto;
-  padding: 0;
-}
-
-a {
-  color: white;
-}
-
-a :active {
-  color: white;
 }
 
 @media (max-width: 600px) {
-	.maindiv {
-		margin: auto;
-		position: relative;
-		text-align: left;
-		top: 25%;
-		width: 90%;
-	}
+  .maindiv {
+    margin: auto;
+    position: relative;
+    text-align: left;
+    top: 25%;
+    width: 90%;
+  }
 
-	.maindiv img {
-		max-width: 85%;
-	}
+  .maindiv img {
+    max-width: 85%;
+  }
 
-	.sidebar {
-		visibility: hidden;
-	}
+  .sidebar {
+    visibility: hidden;
+  }
 
-	.toggle {
-		visibility: hidden;
-	}
+  .toggle {
+    visibility: hidden;
+  }
 
+  .nav {
+    visibility: hidden;
+  }
+
+  .adminActions {
+    visibility: hidden;
+  }
 }
 
 /* Search Box */
-
   .searchbox {
-	width: 60%;
-  
+    width: 60%;
   }
 
   .search {
@@ -90,7 +79,7 @@ a :active {
   }
 
   .gsc-search-button .gsc-search-button-v2 {
-    border-radius: 50px;
+    border-radius: 50%;
     border-color: #12229d;
     background-color: #12229d;
     font-family: 'Roboto';
@@ -107,6 +96,12 @@ a :active {
     font-size: 20px;
   }
 
+  input.gsc-input {
+    margin: auto 10px auto 10px !important;
+    border-radius: 0px !important;
+    border: none !important;
+  }
+
   .gsc-input-box {
     box-shadow: 0 0 10px black;
   }
@@ -115,8 +110,8 @@ a :active {
     padding:10px !important;
     background-color: #12229d;
     box-shadow: 0 0 10px black;
-    height: 50px;
-    width: 50px;
+    height: 45px;
+    width: 45px;
   }
 
   .gsc-result-info {
@@ -201,17 +196,17 @@ a :active {
 
   .gsc-results .gsc-cursor-box .gsc-cursor-page {
     border-color: #12229d !important;
-    border-radius: 25px !important;
-    background-color: #12229d !important;
-    color: white !important;
+    border-radius: 50% !important;
+    background-color: transparent !important;
+    color: #12229d !important;
     margin: 5px;
   }
 
   .gsc-results .gsc-cursor-box .gsc-cursor-current-page {
     border-color: #12229d !important;
-    background-color: white !important;
-    color: #12229d !important;
-    border: 5px solid !important;
+    background-color: #12229d !important;
+    color: white !important;
+    border: 5px solid #12229d !important;
     border-radius: 20px !important;
     padding: 5px 10px !important;
   }
@@ -229,7 +224,7 @@ a :active {
   }
 
   .gsst_a .gscb_a {
-  	color: #12229d !important;
+    color: #12229d !important;
     cursor: pointer;
   }
 
@@ -267,13 +262,14 @@ a :active {
   }
 
   .gsc-control-cse .gsc-table-result {
-    font-family: roboto !important;
+    font-family: Roboto !important;
     background: white !important;
     border-radius: 5px !important;
     margin: auto !important;
     padding: 0 5px !important;
     width: fit-content !important;
     float: left !important;
+    margin-left: 5px !important;
   }
 
   .gs-webResult div.gs-visibleUrl {
@@ -306,47 +302,47 @@ a :active {
   }
 
 /* No Javascript Warning */
-	#noscript-warning {
-	    position: fixed;
-	    top: 0;
-	    left: 0;
-	    width: 100%;
-	    text-align: center;
-	    font-weight: bold;
-	    padding: 5px 0;
-	    color: white;
-	    background-color: red;
-	}
+  #noscript-warning {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    padding: 5px 0;
+    color: white;
+    background-color: red;
+  }
 
 /* Slideout Sidebar */
   .toggle {
-  text-decoration: none;
-  font-size: 2em;
-  color: white;
-  -webkit-transition: all 0.15s ease-out 0;
-  -moz-transition: all 0.15s ease-out 0;
-  transition: all 0.45s ease-out 0;
-  position: fixed;
-  top: 20px;
-  left: 20px;
-  z-index: 1;
-  cursor: pointer;
-  animation: slidein 0.3s ease-in;
+    text-decoration: none;
+    font-size: 2em;
+    color: white;
+    -webkit-transition: all 0.15s ease-out 0;
+    -moz-transition: all 0.15s ease-out 0;
+    transition: all 0.45s ease-out 0;
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    z-index: 1;
+    cursor: pointer;
+    animation: slidein 0.3s ease-in;
   }
 
   .sidebar {
-  position: fixed;
-  top: 0px;
-  bottom: 0px;
-  left: -190px;
-  -webkit-transition: all 0.15s ease-out 0;
-  -moz-transition: all 0.15s ease-out 0;
-  transition: all 0.15s ease-out 0;
-  width: 8rem;
-  padding: 1.5em;
-  background: black; 
-  box-shadow: 0 0 10px black;
-  animation: slidein 0.3s ease-in;
+    position: fixed;
+    top: 0px;
+    bottom: 0px;
+    left: -190px;
+    -webkit-transition: all 0.15s ease-out 0;
+    -moz-transition: all 0.15s ease-out 0;
+    transition: all 0.15s ease-out 0;
+    width: 8rem;
+    padding: 1.5em;
+    background: black; 
+    box-shadow: 0 0 10px black;
+    animation: slidein 0.3s ease-in;
   }
 
   .sidebar img {
@@ -409,18 +405,18 @@ a :active {
   }
 
   #slide:checked + .container .sidebar {
-  left: 0px;
-  transition: 0.5s;
-   }
+    left: 0px;
+    transition: 0.5s;
+  }
 
   #slide:checked + .container .toggle {
-  left: 200px;
-  transition: 0.5s;
-   }
+    left: 200px;
+    transition: 0.5s;
+  }
 
 
   #slide {
-  display: none; 
+    display: none; 
   }
 
   .attribute-title {
@@ -441,123 +437,91 @@ a :active {
   }
 
 /* FAB Wheel */
-	.adminActions {
-	  position: fixed;
-	  bottom: 35px; right: 35px;
-	}
-
-	  .adminButton {
-	    height: 60px;
-	    width: 60px;
-	    background-color: #12229d;
-	    border-radius: 50%;
-	    display: block;
-	    color: #fff;
-	    text-align: center;
-	    position: relative;
-	    z-index: 1;
-	  }
-
-	    .adminButton i {
-	      font-size: 22px;
-	    }
-
-	  .adminButtons {
-	    position: absolute;
-	    width: 100%;
-	    bottom: 120%;
-	    text-align: center;
-	  }
-
-	    .adminButtons a {
-	      display: block;
-	      width: 45px;
-	      height: 45px;
-	      border-radius: 50%;
-	      text-decoration: none;
-	      margin: 10px auto 0;
-	      line-height: 1.15;
-	      color: #fff;
-	      opacity: 0;
-	      visibility: hidden;
-	      position: relative;
-	      box-shadow: 0 0 5px 1px rgba(51, 51, 51, .3);
-	    }
-
-	      .adminButtons a:hover {
-	        transform: scale(1.05);
-	      }
-
-	      .adminButtons a:nth-child(1) {background-color: #ff5722; transition: opacity .2s ease-in-out .3s, transform .15s ease-in-out;}
-	      .adminButtons a:nth-child(2) {background-color: #03a9f4; transition: opacity .2s ease-in-out .25s, transform .15s ease-in-out;}
-	      .adminButtons a:nth-child(3) {background-color: #f44336; transition: opacity .2s ease-in-out .2s, transform .15s ease-in-out;}
-	      .adminButtons a:nth-child(4) {background-color: #4CAF50; transition: opacity .2s ease-in-out .15s, transform .15s ease-in-out;}
-
-	      .adminActions a i {
-	        position: absolute;
-	        top: 50%; left: 50%;
-	        transform: translate(-50%, -50%);
-	      }
-
-	  .adminToggle {
-	    -webkit-appearance: none;
-	    position: absolute;
-	    border-radius: 50%;
-	    top: 0; left: 0;
-	    margin: 0;
-	    width: 100%;
-	    height: 100%;
-	    cursor: pointer;
-	    background-color: transparent;
-	    border: none;
-	    outline: none;
-	    z-index: 2;
-	    transition: box-shadow .2s ease-in-out;
-	    box-shadow: 0 3px 5px 1px rgba(51, 51, 51, .3);
-	  }
-
-	    .adminToggle:hover {
-	      box-shadow: 0 3px 6px 2px rgba(51, 51, 51, .3);
-	    }
-
-	    .adminToggle:checked ~ .adminButtons a {
-	      opacity: 1;
-	      visibility: visible;
-	    }
-
-/* Switcher */
-
-  .switcherdiv {
-    display: flex !important;
-    align-content: center !important;
-    justify-content: center !important;
-    margin: 10px !important;
-    font-size: 1.2em !important;
+  .adminActions {
+    position: fixed;
+    bottom: 35px; right: 35px;
   }
 
-  .switcher {
-    margin: 0 5px !important;
-    padding: 10px 10px !important;
-    border-radius: 20px !important;
-    width: auto !important;
-    border: 3px solid #12229d !important;
-    background-color: #121212 !important;
-    color: white !important;
-    box-shadow: 0 0 10px black !important;
-    font-size: 0.75em !important;
-  }
+    .adminButton {
+      height: 60px;
+      width: 60px;
+      background-color: #12229d;
+      border-radius: 50%;
+      display: block;
+      color: #fff;
+      text-align: center;
+      position: relative;
+      z-index: 1;
+    }
 
-  #active {
-    border: 3px solid #12229d !important;
-    border-color: #12229d !important;
-    background-color: #12229d !important;
-    color: white !important;
+      .adminButton i {
+        font-size: 22px;
+      }
 
+    .adminButtons {
+      position: absolute;
+      width: 100%;
+      bottom: 120%;
+      text-align: center;
+    }
 
-  }
+      .adminButtons a {
+        display: block;
+        width: 45px;
+        height: 45px;
+        border-radius: 50%;
+        text-decoration: none;
+        margin: 10px auto 0;
+        line-height: 1.15;
+        color: #fff;
+        opacity: 0;
+        visibility: hidden;
+        position: relative;
+        box-shadow: 0 0 5px 1px rgba(51, 51, 51, .3);
+      }
+
+        .adminButtons a:hover {
+          transform: scale(1.05);
+        }
+
+        .adminButtons a:nth-child(1) {background-color: #ff5722; transition: opacity .2s ease-in-out .3s, transform .15s ease-in-out;}
+        .adminButtons a:nth-child(2) {background-color: #03a9f4; transition: opacity .2s ease-in-out .25s, transform .15s ease-in-out;}
+        .adminButtons a:nth-child(3) {background-color: #f44336; transition: opacity .2s ease-in-out .2s, transform .15s ease-in-out;}
+        .adminButtons a:nth-child(4) {background-color: #4CAF50; transition: opacity .2s ease-in-out .15s, transform .15s ease-in-out;}
+
+        .adminActions a i {
+          position: absolute;
+          top: 50%; left: 50%;
+          transform: translate(-50%, -50%);
+        }
+
+    .adminToggle {
+      -webkit-appearance: none;
+      position: absolute;
+      border-radius: 50%;
+      top: 0; left: 0;
+      margin: 0;
+      width: 100%;
+      height: 100%;
+      cursor: pointer;
+      background-color: transparent;
+      border: none;
+      outline: none;
+      z-index: 2;
+      transition: box-shadow .2s ease-in-out;
+      box-shadow: 0 3px 5px 1px rgba(51, 51, 51, .3);
+    }
+
+      .adminToggle:hover {
+        box-shadow: 0 3px 6px 2px rgba(51, 51, 51, .3);
+      }
+
+      .adminToggle:checked ~ .adminButtons a {
+        opacity: 1;
+        visibility: visible;
+      }
 
 /* Share Buttons */
-
   .share {
     display: flex;
     text-align: center;
@@ -568,63 +532,131 @@ a :active {
   .share-button {
     display: flex;
     text-align: center;
-    width: 180px;
-    height: 50px;
     align-items: center;
     justify-content: center;
     cursor: pointer;
   }
 
-  .share-button a {
-    flex: 1;
-    font-size: 20px;
-    color: #12229d;
-    text-align: center;
+  .share-button img {
+    width: 50px;
+    height: auto;
   }
 
 /* Preloader */
-
   .preloader_bg{
-      position: fixed;
-      z-index: 999999;
-      background: #121212;
-      width: 100%;
-      height: 100%;
+    position: fixed;
+    z-index: 999999;
+    background: #121212;
+    width: 100%;
+    height: 100%;
   }
+
   .preloader{
-      border: 0 soild transparent;
-      border-radius: 50%;
-      width: 150px;
-      height: 150px;
-      position: absolute;
-      top: calc(50vh - 75px);
-      left: calc(50vw - 75px);
+    border: 0 soild transparent;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: calc(50vh - 75px);
+    left: calc(50vw - 75px);
   }
+
   .preloader:before, .preloader:after{
-      content: '';
-      border: 1em solid #12229d;
-      border-radius: 50%;
-      width: inherit;
-      height: inherit;
-      position: absolute;
-      top: 0;
-      left: 0;
-      animation: loader 2s linear infinite;
-      opacity: 0;
+    content: '';
+    border: 1em solid #12229d;
+    border-radius: 50%;
+    width: inherit;
+    height: inherit;
+    position: absolute;
+    top: 0;
+    left: 0;
+    animation: loader 2s linear infinite;
+    opacity: 0;
   }
+
   .preloader:before{
-      animation-delay: .5s;
+    animation-delay: .5s;
   }
+
   @keyframes loader{
-      0%{
-          transform: scale(0);
-          opacity: 0;
-      }
-      50%{
-          opacity: 1;
-      }
-      100%{
-          transform: scale(1);
-          opacity: 0;
-      }
+    0%{
+      transform: scale(0);
+      opacity: 0;
+    }
+    50%{
+      opacity: 1;
+    }
+    100%{
+      transform: scale(1);
+      opacity: 0;
+    }
+  }
+
+/* Engine Switcher */
+  .nav {
+    position: absolute;
+    top: 15px;
+    width: 100%;
+    height: 55px;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+  }
+
+  .nav__link {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    flex-basis: 150px;
+    overflow: hidden;
+    white-space: nowrap;
+    font-size: 14px;
+    color: white;
+    text-decoration: none;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  .nav__link:hover {
+    color: #12229d;
+  }
+
+  .nav__link--active {
+    color: #12229d;
+  }
+
+  .nav__icon {
+    font-size: 20px;
+  }
+
+/* Switcher */
+  .switcherdiv {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin: auto;
+    font-size: 1.2em;
+  }
+
+  .switcher {
+    margin: 0 5px;
+    padding: 10px 10px;
+    width: auto;
+    background-color: #121212;
+    color: white;
+    font-size: 0.75em;
+    border: none;
+  }
+
+  .switcher:hover {
+    text-decoration: underline;
+  }
+
+  #active {
+    border: 3px solid #12229d;
+    border-color: #12229d;
+    border-radius: 20px;
+    background-color: #12229d;
+    color: white;
+    box-shadow: 0 0 10px black;
+    text-decoration: none;
   }
