@@ -592,42 +592,6 @@ html, body {
     }
   }
 
-/* Engine Switcher */
-  .nav {
-    position: absolute;
-    top: 15px;
-    width: 100%;
-    height: 55px;
-    background-color: transparent;
-    display: flex;
-    justify-content: center;
-  }
-
-  .nav__link {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    flex-basis: 150px;
-    overflow: hidden;
-    white-space: nowrap;
-    font-size: 14px;
-    color: white;
-    text-decoration: none;
-    -webkit-tap-highlight-color: transparent;
-  }
-
-  .nav__link:hover {
-    color: #12229d;
-  }
-
-  .nav__link--active {
-    color: #12229d;
-  }
-
-  .nav__icon {
-    font-size: 20px;
-  }
-
 /* Switcher */
   .switcherdiv {
     display: flex;
@@ -659,4 +623,40 @@ html, body {
     color: white;
     box-shadow: 0 0 10px black;
     text-decoration: none;
+  }
+
+/* Engine Switcher */
+  .nav {
+    position: absolute;
+    top: 15px;
+    width: 100%;
+    height: 55px;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+  }
+
+  .navlink {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    flex-basis: 150px;
+    overflow: hidden;
+    white-space: nowrap;
+    font-size: 14px;
+    color: white;
+    text-decoration: none;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  .navlink:hover {
+    color: #12229d;
+  }
+
+  .navlinkactive {
+    color: #12229d;
+  }
+
+  .navicon {
+    font-size: 20px;
   }
