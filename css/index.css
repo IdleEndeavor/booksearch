@@ -25,36 +25,6 @@ html, body {
   text-align: center;
 }
 
-@media (max-width: 600px) {
-  .maindiv {
-    margin: auto;
-    position: relative;
-    text-align: left;
-    top: 25%;
-    width: 90%;
-  }
-
-  .maindiv img {
-    max-width: 85%;
-  }
-
-  .sidebar {
-    visibility: hidden;
-  }
-
-  .toggle {
-    visibility: hidden;
-  }
-
-  .nav {
-    visibility: hidden;
-  }
-
-  .adminActions {
-    visibility: hidden;
-  }
-}
-
 /* Search Box */
   .searchbox {
     width: 60%;
@@ -660,3 +630,67 @@ html, body {
   .navicon {
     font-size: 20px;
   }
+
+@media (max-width: 500px) {
+  .maindiv {
+    margin: auto;
+    position: relative;
+    text-align: left;
+    top: 25%;
+    width: 100%;
+  }
+
+  .maindiv img {
+    max-width: 75%;
+  }
+
+  .nav {
+    top: unset;
+    bottom: 0px;
+  }
+
+  .sharemobile {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 15px;
+  }
+
+  .share-button-mobile {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    flex-basis: 10px;
+  }
+
+  .share-button-mobile img {
+    width: 40px;
+    height: auto;
+    margin: 0 10px 0 10px;
+  }
+
+  .sidebar {
+    visibility: hidden;
+  }
+
+  .toggle {
+    visibility: hidden;
+  }
+
+  .share {
+    visibility: hidden;
+  }
+
+  .adminActions {
+    visibility: hidden;
+  }
+}
+
+@media (min-width: 500px) {
+  .sharemobile {
+    visibility: hidden; 
+  }
+}
