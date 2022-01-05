@@ -236,6 +236,4 @@ If required by law, we will get your permission or give you the opportunity to o
 ## Contact Us
 
 For any questions or concerns regarding your privacy, you may contact us using the following details:
-
-Josh George
-github.idleendeavor@erine.email
+ravesearch.nmmw4@aleeas.com
