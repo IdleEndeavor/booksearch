@@ -3,11 +3,7 @@ Rave Book Seach Engine assists users in discovering free eBook and Audiobook dow
 All of the websites listed and indexed by the Rave Book Search Engine have been thoroughly verified to ensure their safety.
 
 # Screenshots
-![Screenshot of Rave Book Search Engine Homepage eBook](img/ravesearch-homepage-pic.png)
-
-![Screenshot of Rave Book Search Engine Homepage Audiobook](img/ravesearch-homepage-audiobook-pic.png)
-
-![Screenshot of Rave Book Search Engine Homepage Dashboard](img/ravesearch-homepage-dashboard-pic.png)
+![Screenshot of Rave Book Search Engine Homepage eBook](img/ravesearch.png)
 
 # Features
 - Assists in the finding of free eBook and Audiobook download links
@@ -37,7 +33,7 @@ All of the websites listed and indexed by the Rave Book Search Engine have been 
 - paidshitforfree.com
 - manybooks.net
 - freebooks.com
-- ibookpile.in
+- ibookpile.net
 - epdf.tips
 - oceanofpdf.com
 - ebookbb.com
@@ -236,4 +232,6 @@ If required by law, we will get your permission or give you the opportunity to o
 ## Contact Us
 
 For any questions or concerns regarding your privacy, you may contact us using the following details:
-ravesearch.nmmw4@aleeas.com
+
+Josh George
+github.idleendeavor@erine.email

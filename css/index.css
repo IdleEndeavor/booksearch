@@ -1,415 +1,272 @@
-@import url(https://fonts.googleapis.com/css?family=Poiret+One|Varela+Round);
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
-html, body {
-  margin: 0;
-  padding: 0;
-  background-color: #121212;
-  height: 100%;
-  font-family: Roboto;
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #121212;
+    height: 100%;
+    font-family: Roboto;
 }
 
-.maindiv {
-  margin: auto;
-  position: relative;
-  text-align: left;
-  top: 25%;
-  width: 50%;
+.container {
+    height: 100%;
 }
 
-.maindiv img {
-  max-width: 50%;
-}
+/* Book Switcher */
+    .bookswitch {
+        text-align: center;
+        padding: 5px;
+        font-size: 20px;
+        color: white;
+        text-decoration: none;
+    }
 
-.searchlogo {
-  text-align: center;
-}
+/* Search Bar and Logo Container Div */
+    .maindiv {
+        margin: auto;
+        position: relative;
+        text-align: left;
+        top: 25%;
+        width: 40%;
+    }
+    
+    .maindiv img {
+        max-width: 70%;
+    }
+    
+    .searchlogo {
+        text-align: center;
+    }   
+
+/* Search Engine Switcher */
+    .engine-swticher {
+        display: flex;
+        position: fixed;
+        flex-direction: column;
+        font-family: roboto;
+        margin: 10px;
+        top: 0;
+        left: 0;
+    }
+
+    .engine-swticher a {
+        padding: 5px;
+        font-size: 20px;
+        color: white;
+        text-decoration: none;
+    }
+
+/* Games Found Counter */
+    .games-found {
+        display: flex;
+        bottom: 0;
+        left: 0;
+        flex-direction: column;
+        font-family: roboto;
+        margin: 10px;
+        width: fit-content;
+        position: fixed;
+    }
+
+    .games-found a {
+        padding: 5px;
+        font-size: 20px;
+        color: white;
+        text-decoration: none;
+    }
+
+/* Terms of Use, Privacy Policy and GitHub Link */
+    .terms {
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        display: flex;
+        font-family: roboto;
+        margin: 10px;
+    }
+
+    .terms a {
+        padding: 5px;
+        font-size: 20px;
+        color: white;
+        text-decoration: none;
+    }
 
 /* Search Box */
-  .searchbox {
-    width: 60%;
-  }
-
-  .search {
-    text-align: centre;
-    padding-top: 150px;
-    width: auto;
-    width: 60%;
-    margin: 0 auto 0 auto;
-    animation: slidein 0.3s ease;
-  }
-
-  .search img {
-    display: block;
-    margin: 0 auto;
-    width: 50%;
-    height: auto;
-    margin-bottom: -30px;
-    animation: slidein 0.3s ease;
-  }
-
-  .gsc-search-button .gsc-search-button-v2 {
-    border-radius: 50%;
-    border-color: #12229d;
-    background-color: #12229d;
-    font-family: 'Roboto';
-    margin: auto;
-  }
-
-  .gsc-input-box input.gsc-input, .gsc-input-box, .gsc-input-box-hover, .gsc-input-box-focus {
-    border-radius: 20px !important;
-    border-color: #12229d !important;
-    border-width: 5px !important;
-    background-color: #121212 !important;
-    color: white;
-    font-family: 'Roboto';
-    font-size: 20px;
-  }
-
-  input.gsc-input {
-    margin: auto 10px auto 10px !important;
-    border-radius: 0px !important;
-    border: none !important;
-  }
-
-  .gsc-input-box {
-    box-shadow: 0 0 10px black;
-  }
-
-  button.gsc-search-button {
-    padding:10px !important;
-    background-color: #12229d;
-    box-shadow: 0 0 10px black;
-    height: 45px;
-    width: 45px;
-  }
-
-  .gsc-result-info {
-    display: none;
-  }
-
-  .gs-webResult {
-    padding: 1.5em;
-  }
-
-  .gsc-thumbnail {
-    display: none;
-  }
-
-  .gsc-cursor-page {
-    font-size: 1.5em;
-    padding: 5px 10px !important;
-  }
-
-  .gs-snippet {
-    display: none;
-  }
-
-  .gs-title a {
-    font-size: 1.5em;
-  }
-
-  .gcsc-more-maybe-branding-root {
-    display: none;
-  }
-
-  .gsc-orderby {
-    display: none;
-  }
-
-  .gsc-snippet-metadata {
-    display: none;
-  }
-
-  .gsc-control-cse {
-    background-color: transparent !important;
-    border-color: transparent !important;
-  }
-
-  .gs-webResult.gs-result a.gs-title:link, .gs-webResult.gs-result a.gs-title:link b, .gs-imageResult a.gs-title:link, .gs-imageResult a.gs-title:link b {
-    color: white !important;
-    font-size: 20px;
-  }
-
-  .gs-promotion .gs-visibleUrl, .gs-webResult .gs-visibleUrl {
-    color: green !important;
-    font-size: 15px;
-  }
-
-  .gsc-webResult.gsc-result, .gsc-results .gsc-imageResult {
-    background-color: #121212 !important;
-    border-color: #12229d !important;
-  }
-
-  .gsc-webResult.gsc-result {
-    border: none !important;
-    border-bottom: 5px solid #12229d !important;
-  }
-
-  .gsc-above-wrapper-area {
-    border-bottom: black !important;
-  }
-
-  .gsc-cursor-box .gs-bidi-start-align {
-    background-color: black !important;
-    border-radius: 20px;
-  }
-
-  .gsc-results .gsc-cursor-box {
-    margin: 15px !important;
-    background-color: transparent !important;
-  }
-
-  .gs-spelling .gs-spelling-original {
-    color: white !important;
-  }
-
-  .gsc-results .gsc-cursor-box .gsc-cursor-page {
-    border-color: #12229d !important;
-    border-radius: 50% !important;
-    background-color: transparent !important;
-    color: #12229d !important;
-    margin: 5px;
-  }
-
-  .gsc-results .gsc-cursor-box .gsc-cursor-current-page {
-    border-color: #12229d !important;
-    background-color: #12229d !important;
-    color: white !important;
-    border: 5px solid #12229d !important;
-    border-radius: 20px !important;
-    padding: 5px 10px !important;
-  }
-
-  .gsc-results .gsc-cursor-box {
-    margin: 20px !important;
-  }
-
-  .gsc-results {
-    background-color: transparent !important;
-  }
-
-  .gsc-adBlock {
-    display: none !important;
-  }
-
-  .gsst_a .gscb_a {
-    color: #12229d !important;
-    cursor: pointer;
-  }
-
-  .gsc-results .gsc-cursor {
-    fill: white !important;
-  }
-
-  .gsc-completion-container {
-    background: #121212 !important;
-    color: white !important;
-    border-color: #12229d !important;
-    border-radius: 10px !important;
-    padding: 10px !important;
-  }
-
-  .gssb_a:hover {
-    background: #12229d !important;
-    color: white !important;
-  }
-
-  .gsc-refinementsArea {
-    border-bottom: none !important;
-  }
-
-  .gsc-tabHeader.gsc-tabhInactive, .gsc-refinementHeader.gsc-refinementhInactive {
-    color: white !important;
-    border-color: #121212 !important;
-    background-color: #121212 !important;
-  }
-
-  .gsc-tabHeader.gsc-tabhActive, .gsc-refinementHeader.gsc-refinementhActive {
-    color: #12229d !important;
-    border-color: #12229d !important;
-    background-color: #121212 !important;
-  }
-
-  .gsc-control-cse .gsc-table-result {
-    font-family: Roboto !important;
-    background: white !important;
-    border-radius: 5px !important;
-    margin: auto !important;
-    padding: 0 5px !important;
-    width: fit-content !important;
-    float: left !important;
-    margin-left: 5px !important;
-  }
-
-  .gs-webResult div.gs-visibleUrl {
-    color: lightgreen !important;
-  }
-
-  @media (max-width: 600px) {
+    /* search button */
+    .gsc-search-button .gsc-search-button-v2 {
+        border-radius: 50%;
+        border-color: #12229d;
+        background-color: #12229d;
+        height: 45px;
+        width: 45px;
+        margin: auto;
+        padding:10px !important;
+        box-shadow: 0 0 10px black;
+    }
+    /* search input box */
+    .gsc-input-box input.gsc-input, .gsc-input-box, .gsc-input-box-hover, .gsc-input-box-focus {
+        border-radius: 20px !important; /* rounded corner */
+        border-color: #12229d !important;
+        border-width: 5px !important;
+        background-color: #121212 !important; /* inner background colour */
+        color: white;
+        font-family: 'Roboto';
+        font-size: 20px;
+    }
+    /* searchbox outer shadow */
+    .gsc-input-box {
+        box-shadow: 0 0 10px black;
+    }
+    /* resets colour of white box behind searchbox */
+    .gsc-control-cse {
+        background-color: transparent !important;
+        border-color: transparent !important;
+    }
+    /* gets rid of 'x results in x seconds' text */
+    .gsc-result-info {
+        display: none;
+    }
+    /* gets rid of images gathered from indexed results */
+    .gsc-thumbnail {
+        display: none;
+    }
+    /* results pagination design */
+    .gsc-cursor-page {
+        font-size: 1.5em;
+        padding: 5px 10px !important;
+    }
+    /* gets rid of description gathered from indexed results */
+    .gs-snippet {
+        display: none;
+    }
+    /* 'search on google for x' text remover */
+    .gcsc-more-maybe-branding-root {
+        display: none;
+    }
+    /* sort-by option remover */
+    .gsc-orderby {
+        display: none;
+    }
+    /* colours result titles white (including visited results) */
+    .gs-webResult.gs-result a.gs-title:link, .gs-webResult.gs-result a.gs-title:link b, .gs-imageResult a.gs-title:link, .gs-imageResult a.gs-title:link b {
+        color: white !important;
+        font-size: 20px;
+    }
+    /* styles URL under result titles */
+    .gs-promotion .gs-visibleUrl, .gs-webResult .gs-visibleUrl {
+        color: green !important;
+        font-size: 15px;
+    }
+    /* colouring of search result background and border */
+    .gsc-webResult.gsc-result, .gsc-results .gsc-imageResult {
+        background-color: #121212 !important;
+        border-color: #12229d !important;
+        border: none !important;
+        padding-bottom: 5px !important;
+    }
+    /* colouring of upper border on search results */
+    .gsc-above-wrapper-area {
+        border-bottom: black !important;
+    }
+    /* styles pagination switcher */
     .gsc-results .gsc-cursor-box .gsc-cursor-page {
-      border-color: #12229d !important;
-      border-radius: 25px !important;
-      background-color: #12229d !important;
-      color: white !important;
-      margin: auto !important;
+        border-color: #12229d !important;
+        border-radius: 50% !important;
+        background-color: transparent !important;
+        color: white !important;
+        margin: 5px;
     }
-
+    /* styles active page pagination switcher */
+    .gsc-results .gsc-cursor-box .gsc-cursor-current-page {
+        border-color: #12229d !important;
+        color: #12229d !important;
+        border-bottom: 2px solid #12229d !important;
+        border-radius: 0px !important;
+        padding: 5px 10px !important;
+    }
+    /* adds padding above pagination switcher */
     .gsc-results .gsc-cursor-box {
-      border: none !important;
-      border-radius: 20px !important;
+        margin: 20px !important;
+        border: none !important;
     }
-
-    .gsc-cursor-next-page {
-      color: white !important;
-      font-weight: bold !important;
+    .gsc-results .gsc-cursor {
+        color: #12229d !important;
+        fill: #12229d !important;
     }
-
+    /* makes pagination switcher background transparent */
+    .gsc-results {
+        background-color: transparent !important;
+    }
+    /* colours search phrase clear button */
+    .gsst_a .gscb_a {
+        color: #12229d !important;
+        cursor: pointer;
+    }
+    /* styles sizing and colouring of autocomplete suggestions */
+    .gsc-completion-container {
+        background: #121212 !important;
+        color: white !important;
+        border-color: #12229d !important;
+        border-radius: 10px !important;
+        padding: 10px !important;
+    }
+    /* styles autocomplete suggestion when hovered */
+    .gssb_a:hover {
+        background: #12229d !important;
+        color: white !important;
+    }
+    /* removes border-line below filters switcher and removes border on mobile view */
+    .gsc-refinementsArea {
+        background-color: none !important;
+        border: none !important;
+        border-bottom: none !important;
+    }
+    /* changes colour of scrollable gradient in mobile view */
+    .gsc-refinementsGradient {
+        background: linear-gradient(to left,#12229d,rgba(255,255,255,0)) !important;
+    }
+    /* styles inactive filter tabs */
+    .gsc-tabHeader.gsc-tabhInactive, .gsc-refinementHeader.gsc-refinementhInactive {
+        color: white !important;
+        border-color: #121212 !important;
+        background-color: #121212 !important;
+    }
+    /* styles active filter tabs */
+    .gsc-tabHeader.gsc-tabhActive, .gsc-refinementHeader.gsc-refinementhActive {
+        color: #12229d !important;
+        border-color: #12229d !important;
+        background-color: #121212 !important;
+    }
+    /* styles tags on search results */
+    .gsc-control-cse .gsc-table-result {
+        font-family: Roboto !important;
+        background: white !important;
+        border-radius: 3px !important;
+        margin: 5px auto !important;
+        padding: 0 5px !important;
+        width: fit-content !important;
+        float: left !important;
+        margin-left: 3px !important;
+    }
+    /* colours url on search results */
+    .gs-webResult div.gs-visibleUrl {
+        color: lightgreen !important;
+    }
+    /* removes find more on Google text in mobile view */
     .gcsc-find-more-on-google-root {
-      display: none;
+        display: none;
     }
-
-  }
-
-/* No Javascript Warning */
-  #noscript-warning {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    text-align: center;
-    font-weight: bold;
-    padding: 5px 0;
-    color: white;
-    background-color: red;
-  }
-
-/* Slideout Sidebar */
-  .toggle {
-    text-decoration: none;
-    font-size: 2em;
-    color: white;
-    -webkit-transition: all 0.15s ease-out 0;
-    -moz-transition: all 0.15s ease-out 0;
-    transition: all 0.45s ease-out 0;
-    position: fixed;
-    top: 20px;
-    left: 20px;
-    z-index: 1;
-    cursor: pointer;
-    animation: slidein 0.3s ease-in;
-  }
-
-  .sidebar {
-    position: fixed;
-    top: 0px;
-    bottom: 0px;
-    left: -190px;
-    -webkit-transition: all 0.15s ease-out 0;
-    -moz-transition: all 0.15s ease-out 0;
-    transition: all 0.15s ease-out 0;
-    width: 8rem;
-    padding: 1.5em;
-    background: black; 
-    box-shadow: 0 0 10px black;
-    animation: slidein 0.3s ease-in;
-  }
-
-  .sidebar img {
-    width: 80px;
-    display: block;
-    margin: auto;
-  }
-
-  .sidebar ul {
-    list-style: none;
-    margin: 0;
-    padding: 0; 
-  }
-
-  .sidebar li a {
-    color: white;
-    font-family: 'Roboto';
-    margin: 0;
-    margin-bottom: 16px;
-    cursor: pointer;
-    text-decoration: none;
-    line-height: 200%;
-    font-size: 18px;
-  }
-
-  .sidebar h4 {
-    margin: 0;
-    padding: 0; 
-    color: white;
-    font-family: 'Roboto';
-    bottom: 10px;
-    width: 100%;
-    position: fixed;
-  }
-
-  #foundcounter {
-    margin: 0 0 50px 0;
-    padding: 0; 
-    color: white;
-    font-family: 'Roboto';
-    bottom: 10px;
-    width: 100%;
-    font-size: 15px;
-    position: fixed;
-  }
-
-  #foundcounterno {
-    margin: 0 0 70px 0;
-    padding: 0; 
-    color: white;
-    font-family: 'Roboto';
-    bottom: 10px;
-    width: 100%;
-    font-size: 15px;
-    position: fixed;
-  }
-
-  .sidebar a:hover {
-    color: gray; 
-  }
-
-  #slide:checked + .container .sidebar {
-    left: 0px;
-    transition: 0.5s;
-  }
-
-  #slide:checked + .container .toggle {
-    left: 200px;
-    transition: 0.5s;
-  }
-
-
-  #slide {
-    display: none; 
-  }
-
-  .attribute-title {
-    color: white;
-    font-family: 'Roboto';
-  }
-
-  .at-tjin-title {
-    display: none !important;
-  }
-
-  .at-resp-share-element {
-    text-align: center !important;
-  }
-
-  .at-tjin-element .at-tjin-btn {
-    transition: unset !important;
-  }
+    /* removes ads from the search results */
+    .gsc-adBlock {
+        display: none !important;
+      }
 
 /* FAB Wheel */
-  .adminActions {
+.adminActions {
     position: fixed;
     bottom: 35px; right: 35px;
+    visibility: hidden;
   }
 
     .adminButton {
@@ -491,206 +348,33 @@ html, body {
         visibility: visible;
       }
 
-/* Share Buttons */
-  .share {
-    display: flex;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .share-button {
-    display: flex;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-  }
-
-  .share-button img {
-    width: 50px;
-    height: auto;
-  }
-
-/* Preloader */
-  .preloader_bg{
-    position: fixed;
-    z-index: 999999;
-    background: #121212;
-    width: 100%;
-    height: 100%;
-  }
-
-  .preloader{
-    border: 0 soild transparent;
-    border-radius: 50%;
-    width: 150px;
-    height: 150px;
-    position: absolute;
-    top: calc(50vh - 75px);
-    left: calc(50vw - 75px);
-  }
-
-  .preloader:before, .preloader:after{
-    content: '';
-    border: 1em solid #12229d;
-    border-radius: 50%;
-    width: inherit;
-    height: inherit;
-    position: absolute;
-    top: 0;
-    left: 0;
-    animation: loader 2s linear infinite;
-    opacity: 0;
-  }
-
-  .preloader:before{
-    animation-delay: .5s;
-  }
-
-  @keyframes loader{
-    0%{
-      transform: scale(0);
-      opacity: 0;
+@media (max-width: 1000px) {
+    .maindiv {
+        margin: auto;
+        position: relative;
+        text-align: left;
+        top: 25%;
+        width: 80%;
     }
-    50%{
-      opacity: 1;
+    
+    .maindiv img {
+        max-width: 75%;
     }
-    100%{
-      transform: scale(1);
-      opacity: 0;
+
+    .terms {
+        display: none;
     }
-  }
 
-/* Switcher */
-  .switcherdiv {
-    display: flex;
-    align-content: center;
-    justify-content: center;
-    margin: auto;
-    font-size: 1.2em;
-  }
+    .engine-swticher {
+        display: none;
+    }
 
-  .switcher {
-    margin: 0 5px;
-    padding: 10px 10px;
-    width: auto;
-    background-color: #121212;
-    color: white;
-    font-size: 0.75em;
-    border: none;
-  }
+    .games-found {
+        display: none;
+    }
 
-  .switcher:hover {
-    text-decoration: underline;
-  }
-
-  #active {
-    border: 3px solid #12229d;
-    border-color: #12229d;
-    border-radius: 20px;
-    background-color: #12229d;
-    color: white;
-    box-shadow: 0 0 10px black;
-    text-decoration: none;
-  }
-
-/* Engine Switcher */
-  .nav {
-    position: absolute;
-    top: 15px;
-    width: 100%;
-    height: 55px;
-    background-color: transparent;
-    display: flex;
-    justify-content: center;
-  }
-
-  .navlink {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    flex-basis: 150px;
-    overflow: hidden;
-    white-space: nowrap;
-    font-size: 14px;
-    color: white;
-    text-decoration: none;
-    -webkit-tap-highlight-color: transparent;
-  }
-
-  .navlink:hover {
-    color: #12229d;
-  }
-
-  .navlinkactive {
-    color: #12229d;
-  }
-
-  .navicon {
-    font-size: 20px;
-  }
-
-@media (max-width: 500px) {
-  .maindiv {
-    margin: auto;
-    position: relative;
-    text-align: left;
-    top: 25%;
-    width: 100%;
-  }
-
-  .maindiv img {
-    max-width: 75%;
-  }
-
-  .nav {
-    top: unset;
-    bottom: 0px;
-  }
-
-  .sharemobile {
-    display: flex;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    margin: 15px;
-  }
-
-  .share-button-mobile {
-    display: flex;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-    flex-basis: 10px;
-  }
-
-  .share-button-mobile img {
-    width: 40px;
-    height: auto;
-    margin: 0 10px 0 10px;
-  }
-
-  .sidebar {
-    visibility: hidden;
-  }
-
-  .toggle {
-    visibility: hidden;
-  }
-
-  .share {
-    visibility: hidden;
-  }
-
-  .adminActions {
-    visibility: hidden;
-  }
-}
-
-@media (min-width: 500px) {
-  .sharemobile {
-    visibility: hidden; 
-  }
+@media (max-width: 1000px) {
+    .adminActions {
+        visibility: visible;
+    }
 }
