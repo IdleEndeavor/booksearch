@@ -28,8 +28,45 @@ All of the websites listed and indexed by the Rave Book Search Engine have been 
   - Nickname: ras
   - URL: https://ravebooksearch.com/index-audiobooks.html?q=%s (please note that the '%s' keyword substitute may be different across browsers, kindly follow the instructions provided on your browser to replace if needed.) 
 
-# Websites Indexed (Currently 51)
-## eBooks (Currently 36)
+# Websites Indexed (Currently 88)
+## eBooks (Currently 73)
+- b-ok.cc/*
+- pdfdrive.com/*
+- repec.org/*
+- snti.ru/*
+- magazinelib.com/*
+- avxhome.se/*
+- freebookspot.club/*
+- librs.net/*
+- booksc.org/*
+- ebookjunkie.com/*
+- scribd.com/*
+- onlineprogrammingbooks.com/*
+- perlego.com/*
+- bookboon.com/*
+- broward.org/*
+- ebookee.com/*
+- free-ebooks.net/*
+- smashwords.com/*
+- oll.libertyfund.org/*
+- 2020ok.com/*
+- ebb.la/*
+- textbooknova.com/*
+- pdfchm.net/*
+- ebook3000.com/*
+- bookfi.net/*
+- openlibrary.org/*
+- scienceopen.com/*
+- pdfbooksworld.com/*
+- feedbooks.com/*
+- doaj.org/*
+- plos.org/*
+- dlc.dlib.indiana.edu/*
+- paperity.org/*
+- dblp.org/*
+- zenodo.org/*
+- forcoder.su/*
+- filepursuit.com/*
 - paidshitforfree.com
 - manybooks.net
 - freebooks.com
@@ -72,7 +109,8 @@ All of the websites listed and indexed by the Rave Book Search Engine have been 
 - newcomic.info
 - comics-all.com
 - libgen.gs
-## Audiobooks (Currently 10)
+## Audiobooks (Currently 11)
+- audiobooksbay.ch/*
 - paidshitforfree.com
 - loyalbooks.com
 - xaudiobo0ks.com
