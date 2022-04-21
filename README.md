@@ -28,8 +28,8 @@ All of the websites listed and indexed by the Rave Book Search Engine have been 
   - Nickname: ras
   - URL: https://ravebooksearch.com/index-audiobooks.html?q=%s (please note that the '%s' keyword substitute may be different across browsers, kindly follow the instructions provided on your browser to replace if needed.) 
 
-# Websites Indexed (Currently 88)
-## eBooks (Currently 73)
+# Websites Indexed (Currently 82)
+## eBooks (Currently 67)
 - b-ok.cc/*
 - pdfdrive.com/*
 - repec.org/*
@@ -85,23 +85,17 @@ All of the websites listed and indexed by the Rave Book Search Engine have been 
 - baen.com
 - bygosh.com
 - bookgoldmine.com
-- libgen.fun
-- libgen.rs/fiction
 - pdfget.com
 - yudhacookbook.my.id
-- epublibre.org
 - espaebook2.com
 - standardebooks.org/books
 - sanet.st/full
 - ebook-hunter.org/books
 - ebookelo.com
-- freefullpdf.com
-- snewd.com
 - kupdf.net
 - pdfroom.com
 - lelivros.love
 - trantor.is
-- ikindlebooks.com
 - dokumen.pub
 ## Comics (Currently 4)
 - getcomics.info
