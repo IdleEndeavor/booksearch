@@ -28,8 +28,8 @@ All of the websites listed and indexed by the Rave Book Search Engine have been 
   - Nickname: ras
   - URL: https://ravebooksearch.com/index-audiobooks.html?q=%s (please note that the '%s' keyword substitute may be different across browsers, kindly follow the instructions provided on your browser to replace if needed.) 
 
-# Websites Indexed (Currently 82)
-## eBooks (Currently 67)
+# Websites Indexed (Currently 138)
+## eBooks (Currently 123)
 - b-ok.cc/*
 - pdfdrive.com/*
 - repec.org/*
@@ -97,6 +97,62 @@ All of the websites listed and indexed by the Rave Book Search Engine have been 
 - lelivros.love
 - trantor.is
 - dokumen.pub
+- *.ebook-dl.com/*
+- *.bookfrom.net/*
+- *.snewd.com/*
+- *.ereads.net/*
+- *.readanybook.com/*
+- *.d-pdf.com/*
+- *.avalonlibrary.net/*
+- *.bookscat.org/*
+- *.bookree.org/*
+- *.ebook3000.co/*
+- *.booksvooks.com/*
+- *.oceanofepub.com/*
+- *.letmeread.net/*
+- *.onlybooks.org/*
+- *.ebookscart.com/*
+- *.novel12.com/*
+- *.globalgreyebooks.com/*
+- *.bookyards.com/*
+- *.digilibraries.com/*
+- *.bookscafe.net/*
+- *.celz.ru/*
+- *.fullbooks.com/*
+- *.ebook-mecca.com/*
+- *.ebook4expert.net/*
+- *.thefreeonlinenovel.com/*
+- *.readonlinefreebook.com/*
+- *.allbookshub.com/*
+- *.ebooksz.net/*
+- *.bbooks.info/*
+- *.novels80.com/*
+- *.myebooksfree.com/*
+- *.e-booksdirectory.com/*
+- *.ebookhunter.net/*
+- *.loyalbooks.com/*
+- *.getfreeebooks.com/*
+- *.obooko.com/*
+- *.haringebook.com/*
+- *.goodfileshare.com/*
+- *.digitalbook.io/*
+- *.pdfgeni.com/*
+- *.pdfgrab.com/*
+- *.ebookpdf.com/*
+- *.moam.info/*
+- *.pdfcookie.com/*
+- *.pdfsearches.com/*
+- *.oiipdf.com/*
+- *.pdfslide.net/*
+- *.qdoc.tips/*
+- *.pdfduck.com/*
+- *.pdforigin.club/*
+- *.freeditorial.com/*
+- *.zoboko.com/*
+- *.hundredzeros.com/*
+- *.freereadfeed.com/*
+- *.avxhm.se/*
+- *.avaxhome.co/*
 ## Comics (Currently 4)
 - getcomics.info
 - zipcomic.com
@@ -105,7 +161,6 @@ All of the websites listed and indexed by the Rave Book Search Engine have been 
 - libgen.gs
 ## Audiobooks (Currently 11)
 - audiobooksbay.ch/*
-- paidshitforfree.com
 - loyalbooks.com
 - xaudiobo0ks.com
 - audiobookbay.nl
