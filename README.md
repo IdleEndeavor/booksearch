@@ -29,8 +29,7 @@ All of the websites listed and indexed by the Rave Book Search Engine have been 
   - URL: https://ravebooksearch.com/index-audiobooks.html?q=%s (please note that the '%s' keyword substitute may be different across browsers, kindly follow the instructions provided on your browser to replace if needed.) 
 
 # Websites Indexed (Currently 138)
-## eBooks (Currently 123)
-- b-ok.cc/*
+## eBooks (Currently 120)
 - pdfdrive.com/*
 - repec.org/*
 - snti.ru/*
@@ -55,7 +54,6 @@ All of the websites listed and indexed by the Rave Book Search Engine have been 
 - pdfchm.net/*
 - ebook3000.com/*
 - bookfi.net/*
-- openlibrary.org/*
 - scienceopen.com/*
 - pdfbooksworld.com/*
 - feedbooks.com/*
@@ -74,7 +72,6 @@ All of the websites listed and indexed by the Rave Book Search Engine have been 
 - epdf.tips
 - oceanofpdf.com
 - ebookbb.com
-- b-ok.asia
 - gutenberg.org
 - allbooksworld.com
 - ebooklobby.com
@@ -153,6 +150,8 @@ All of the websites listed and indexed by the Rave Book Search Engine have been 
 - *.freereadfeed.com/*
 - *.avxhm.se/*
 - *.avaxhome.co/*
+- https://annas-archive.org
+- 1lib.to
 ## Comics (Currently 4)
 - getcomics.info
 - zipcomic.com
