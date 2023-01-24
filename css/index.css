@@ -56,6 +56,37 @@ body {
         text-decoration: none;
     }
 
+/* The alert message box */
+    .alert {
+        padding: 10px;
+        background-color: white; /* Red */
+        color: black;
+        margin-bottom: -5px;
+        text-align: center;
+        border-radius: 10px;
+    }
+
+    .alert a {
+        color: black;
+    }
+    
+    /* The close button */
+    .closebtn {
+        margin-left: 15px;
+        color: black;
+        font-weight: bold;
+        float: right;
+        font-size: 22px;
+        line-height: 20px;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+    
+    /* When moving the mouse over the close button */
+    .closebtn:hover {
+        color: red;
+    }
+
 /* Games Found Counter */
     .games-found {
         display: flex;
@@ -369,6 +400,10 @@ body {
     }
 
     .games-found {
+        display: none;
+    }
+
+    .alert {
         display: none;
     }
 
