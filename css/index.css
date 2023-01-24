@@ -205,16 +205,15 @@ body {
     }
     /* styles sizing and colouring of autocomplete suggestions */
     .gsc-completion-container {
-        background: #121212 !important;
-        color: white !important;
         border-color: #12229d !important;
         border-radius: 10px !important;
         padding: 10px !important;
     }
     /* styles autocomplete suggestion when hovered */
     .gssb_a:hover {
-        background: #12229d !important;
-        color: white !important;
+        background: #72B2F0 !important;
+        border-radius: 15px;
+        padding: 5px;
     }
     /* removes border-line below filters switcher and removes border on mobile view */
     .gsc-refinementsArea {
