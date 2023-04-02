@@ -43,7 +43,6 @@ All of the websites listed and indexed by the Rave Book Search Engine have been 
 - onlineprogrammingbooks.com/*
 - perlego.com/*
 - bookboon.com/*
-- broward.org/*
 - ebookee.com/*
 - free-ebooks.net/*
 - oll.libertyfund.org/*
