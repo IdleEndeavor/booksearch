@@ -28,8 +28,8 @@ All of the websites listed and indexed by the Rave Book Search Engine have been 
   - Nickname: ras
   - URL: https://ravebooksearch.com/index-audiobooks.html?q=%s (please note that the '%s' keyword substitute may be different across browsers, kindly follow the instructions provided on your browser to replace if needed.) 
 
-# Websites Indexed (Currently 132)
-## eBooks (Currently 117)
+# Websites Indexed (Currently 131)
+## eBooks (Currently 116)
 - libgen.fun
 - pdfdrive.com/*
 - repec.org/*
@@ -100,7 +100,6 @@ All of the websites listed and indexed by the Rave Book Search Engine have been 
 - *.ebook3000.co/*
 - *.booksvooks.com/*
 - *.oceanofepub.com/*
-- *.letmeread.net/*
 - *.onlybooks.org/*
 - *.ebookscart.com/*
 - *.novel12.com/*
