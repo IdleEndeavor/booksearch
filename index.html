@@ -8,15 +8,21 @@
 
     <link rel="stylesheet" href="css/index.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <meta property="og:type" content="website">
-    <meta property="twitter:title" content="Rave Book Search">
+    <meta name="description" content="Find the safest free download links to your favorite eBooks and Audiobooks">
+    <meta name="keywords" content="eBooks, Audiobooks, free download links">
+    <meta name="author" content="Rave Book Search">
+    <meta name="robots" content="index, follow">
+    <meta name="googlebot" content="index, follow">
+    <meta name="msvalidate.01" content="YOUR_BING_VERIFICATION_CODE_HERE">
     <meta property="og:title" content="Rave Book Search">
-    <meta property="twitter:card" content="Find the safest free download links to your favorite eBooks and Audiobooks">
-    <meta property="twitter:description" content="Find the safest free download links to your favorite eBooks and Audiobooks">
     <meta property="og:description" content="Find the safest free download links to your favorite eBooks and Audiobooks">
-    <meta property="twitter:image" content="https://ravebooksearch.com/img/ravesearch.png">
     <meta property="og:image" content="https://ravebooksearch.com/img/ravesearch.png">
-    <meta property="description" content="Find the safest free download links to your favorite eBooks and Audiobooks">
+    <meta property="og:url" content="https://ravebooksearch.com/">
+    <meta property="og:type" content="website">
+    <meta name="twitter:title" content="Rave Book Search">
+    <meta name="twitter:description" content="Find the safest free download links to your favorite eBooks and Audiobooks">
+    <meta name="twitter:image" content="https://ravebooksearch.com/img/ravesearch.png">
+    <meta name="twitter:card" content="summary_large_image">
     <link href="img/favicon.png" rel="shortcut icon">
 </head>
 <body>
@@ -68,16 +74,17 @@
         <a>Books Found</a>
     </div>
     <script type="text/javascript">
-		function updateCounter() {
-		    fetch('https://api.countapi.xyz/update/ravebooksearch/ravebooksearch/?amount=1')
-		        .then(res => res.json())
-		        .then(data => counterElement.innerHTML = data.value)
-		}
-
-		updateCounter()
-
-		counterElement = document.getElementsByClassName('count')[0];
-	</script>
+        let counterElement = document.getElementsByClassName('count')[0];
+      
+        function updateCounter() {
+            fetch('https://api.countapi.xyz/update/ravebooksearch/ravebooksearch/?amount=1')
+                .then(res => res.json())
+                .then(data => counterElement.innerHTML = data.value)
+        }
+      
+        updateCounter()
+      </script>
+      
     <!-- Terms of Use, Privacy Policy and GitHub Link -->
     <div class="terms">
         <a href="https://github.com/IdleEndeavor/booksearch">GitHub |</a>

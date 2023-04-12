@@ -1,25 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 body {
-    margin: 0;
-    padding: 0;
-    background-color: #121212;
-    height: 100%;
-    font-family: Roboto;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: Roboto;
+  background-color: #121212;
 }
 
 .container {
-    height: 100%;
+  height: 100%;
 }
 
 /* Book Switcher */
-    .bookswitch {
-        text-align: center;
-        padding: 5px;
-        font-size: 20px;
-        color: white;
-        text-decoration: none;
-    }
+.bookswitch, .engine-swticher a, .games-found a, .terms a {
+  font-family: roboto;
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+  padding: 5px;
+}
+
+.bookswitch {
+  text-align: center;
+}
 
 /* Search Bar and Logo Container Div */
     .maindiv {
@@ -184,15 +188,15 @@ body {
         display: none;
     }
     /* colours result titles white (including visited results) */
-    .gs-webResult.gs-result a.gs-title:link, .gs-webResult.gs-result a.gs-title:link b, .gs-imageResult a.gs-title:link, .gs-imageResult a.gs-title:link b {
+    /* .gs-webResult.gs-result a.gs-title:link, .gs-webResult.gs-result a.gs-title:link b, .gs-imageResult a.gs-title:link, .gs-imageResult a.gs-title:link b {
         color: white !important;
         font-size: 20px;
-    }
+    } */
     /* styles URL under result titles */
-    .gs-promotion .gs-visibleUrl, .gs-webResult .gs-visibleUrl {
+    /* .gs-promotion .gs-visibleUrl, .gs-webResult .gs-visibleUrl {
         color: green !important;
         font-size: 15px;
-    }
+    } */
     /* colouring of search result background and border */
     .gsc-webResult.gsc-result, .gsc-results .gsc-imageResult {
         background-color: #121212 !important;
@@ -261,17 +265,17 @@ body {
         background: linear-gradient(to left,#12229d,rgba(255,255,255,0)) !important;
     }
     /* styles inactive filter tabs */
-    .gsc-tabHeader.gsc-tabhInactive, .gsc-refinementHeader.gsc-refinementhInactive {
+    /* .gsc-tabHeader.gsc-tabhInactive, .gsc-refinementHeader.gsc-refinementhInactive {
         color: white !important;
         border-color: #121212 !important;
         background-color: #121212 !important;
-    }
+    } */
     /* styles active filter tabs */
-    .gsc-tabHeader.gsc-tabhActive, .gsc-refinementHeader.gsc-refinementhActive {
+    /* .gsc-tabHeader.gsc-tabhActive, .gsc-refinementHeader.gsc-refinementhActive {
         color: #12229d !important;
         border-color: #12229d !important;
         background-color: #121212 !important;
-    }
+    } */
     /* styles tags on search results */
     .gsc-control-cse .gsc-table-result {
         font-family: Roboto !important;
@@ -284,9 +288,9 @@ body {
         margin-left: 3px !important;
     }
     /* colours url on search results */
-    .gs-webResult div.gs-visibleUrl {
+    /* .gs-webResult div.gs-visibleUrl {
         color: lightgreen !important;
-    }
+    } */
     /* removes find more on Google text in mobile view */
     .gcsc-find-more-on-google-root {
         display: none;
@@ -357,7 +361,6 @@ body {
         }
 
     .adminToggle {
-      -webkit-appearance: none;
       position: absolute;
       border-radius: 50%;
       top: 0; left: 0;
@@ -411,8 +414,41 @@ body {
         display: none;
     }
 
+    /* search button */
+    .gsc-search-button .gsc-search-button-v2 {
+        border-radius: 50%;
+        border-color: #12229d;
+        background-color: #12229d;
+        height: 50px;
+        width: 50px;
+        margin: auto;
+        padding:10px !important;
+        box-shadow: 0 0 10px black;
+    }
+
+    /* search input box */
+    .gsc-input-box input.gsc-input, .gsc-input-box, .gsc-input-box-hover, .gsc-input-box-focus {
+        border-radius: 25px !important; /* rounded corner */
+        border-color: #12229d !important;
+        border-width: 5px !important;
+        background-color: #121212 !important; /* inner background colour */
+        color: white;
+        font-family: 'Roboto';
+        font-size: 20px;
+        margin-right: 5px;
+    }
+
+    /* results pagination design */
+    .gsc-cursor-page {
+        display: none !important;
+        font-size: 1em;
+        padding: 5px 3px !important;
+        overflow: hidden;
+    }
+
 @media (max-width: 1000px) {
     .adminActions {
         visibility: visible;
     }
+}
 }
