@@ -38,6 +38,21 @@
             <div class="searchlogo">
                 <img class="searchlogo" src="img/search-logo.png" onclick="location.href='index.html';">
                 <div class="tips">For more preciose results, include the Author Name and prefixes such as 'The' and 'A' with the Book Titles</div>
+                <div id="donate-button-container">
+                    <div id="donate-button"></div>
+                    <script src="https://www.paypalobjects.com/donate/sdk/donate-sdk.js" charset="UTF-8"></script>
+                    <script>
+                    PayPal.Donation.Button({
+                    env:'production',
+                    hosted_button_id:'XMFZ3K79YGDFG',
+                    image: {
+                    src:'https://www.paypalobjects.com/en_GB/i/btn/btn_donate_SM.gif',
+                    alt:'Donate with PayPal button',
+                    title:'PayPal - The safer, easier way to pay online!',
+                    }
+                    }).render('#donate-button');
+                    </script>
+                    </div>                    
             </div>            <!-- <div class="alert">
                 <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span> 
                 Would you be interested in donating to keep this website running?
