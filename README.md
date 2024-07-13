@@ -3,14 +3,15 @@ Rave Book Seach Engine assists users in discovering free eBook and Audiobook dow
 All of the websites listed and indexed by the Rave Book Search Engine have been verified to ensure their safety.
 
 # Screenshots
-![Screenshot of Rave Book Search Engine Homepage eBook](img/ravesearch.png)
+<img src="img/ravesearch.png" height="500"/>
+<img src="img/ravesearch-mobile.png" height="500"/>
 
 # Features
 - Assists in the finding of free eBook and Audiobook download links
 - Only indexes links confirmed to be virus-free.
 - Supports direct searches via browser address bars
 - Uses Google search indexing to provide results quickly
-- Simple UI for easy use
+- Simple and responsive UI for easy use
 
 # Setting-up Direct URL Search
 ## eBook Search
@@ -110,7 +111,6 @@ All of the websites listed and indexed by the Rave Book Search Engine have been 
 # Additional Information/Terms Notice
 Rave Book Search does not host any files on our servers, nor do we have the capability to do so. 
 This project utilizes Google's CSE services, which may involve the exchange of basic user data with Google. The Rave Team does not collect, store, or intend to collect or store any data beyond basic web analytics and aggregated search trend information.
-
 ## Contact Us
 For any questions or concerns regarding your privacy, you may contact us using the following details:
 ravesearch.nmmw4@aleeas.com

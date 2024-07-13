@@ -1,11 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
+:root {
+    --bg-color: #121212;
+    --text-color: #ffffff;
+    --primary-color: #12229d;
+    --secondary-color: #12229d89;
+}
+
 body {
   margin: 0;
   padding: 0;
   height: 100%;
   font-family: Roboto;
-  background-color: #121212;
+  background-color: var(--bg-color);
 }
 
 .container {
@@ -16,7 +23,7 @@ body {
 .bookswitch, .engine-swticher a, .games-found a, .terms a {
   font-family: roboto;
   font-size: 20px;
-  color: white;
+  color: var(--text-color);
   text-decoration: none;
   padding: 5px;
 }
@@ -43,7 +50,7 @@ body {
     }   
 
     .tips {
-        color: white;
+        color: var(--text-color);
     }
 
     /* Fade animation for banner images */
@@ -67,7 +74,7 @@ body {
     .engine-swticher a {
         padding: 5px;
         font-size: 20px;
-        color: white;
+        color: var(--text-color);
         text-decoration: none;
     }
 
@@ -85,7 +92,7 @@ body {
 
     .engine-swticher-2 .item {
         position: relative;
-        color: white; /* Text color */
+        color: var(--text-color); /* Text color */
         padding: 10px;
         margin-bottom: 10px; /* Space between items */
         border: 5px solid white; /* White border */
@@ -105,13 +112,8 @@ body {
         top: 5px;
         right: 5px;
         cursor: pointer;
-        color: white;
+        color: var(--text-color);
     }
-
-    /* .engine-swticher-2 .item:hover {
-        background-color: #12229d; /* Darker background on hover
-        color: #000000;
-    } */
 
     #donate-button {
         margin-top: 3px;
@@ -149,7 +151,7 @@ body {
     .games-found a {
         padding: 5px;
         font-size: 20px;
-        color: white;
+        color: var(--text-color);
         text-decoration: none;
     }
 
@@ -166,7 +168,7 @@ body {
     .terms a {
         padding: 5px;
         font-size: 20px;
-        color: white;
+        color: var(--text-color);
         text-decoration: none;
     }
 
@@ -174,8 +176,8 @@ body {
     /* search button */
     .gsc-search-button .gsc-search-button-v2 {
         border-radius: 50%;
-        border-color: #12229d;
-        background-color: #12229d;
+        border-color: var(--primary-color);
+        background-color: var(--primary-color);
         height: 45px;
         width: 45px;
         margin: auto;
@@ -185,10 +187,10 @@ body {
     /* search input box */
     .gsc-input-box input.gsc-input, .gsc-input-box, .gsc-input-box-hover, .gsc-input-box-focus {
         border-radius: 20px !important; /* rounded corner */
-        border-color: #12229d !important;
+        border-color: var(--primary-color) !important;
         border-width: 5px !important;
-        background-color: #121212 !important; /* inner background colour */
-        color: white;
+        background-color: var(--bg-color) !important; /* inner background colour */
+        color: var(--text-color);
         font-family: 'Roboto';
         font-size: 20px;
     }
@@ -229,8 +231,12 @@ body {
     }
     /* colours result titles white (including visited results) */
     .gs-webResult.gs-result a.gs-title:link, .gs-webResult.gs-result a.gs-title:link b, .gs-imageResult a.gs-title:link, .gs-imageResult a.gs-title:link b {
-        color: white !important;
+        color: var(--text-color) !important;
         font-size: 20px;
+    }
+    /* makes sure that results are left aligned */
+    .gs-result .gs-title, .gs-result .gs-title {
+        text-align: left !important;
     }
     /* styles URL under result titles */
     .gs-promotion .gs-visibleUrl, .gs-webResult .gs-visibleUrl {
@@ -239,8 +245,8 @@ body {
     }
     /* colouring of search result background and border */
     .gsc-webResult.gsc-result, .gsc-results .gsc-imageResult {
-        background-color: #121212 !important;
-        border-color: #12229d !important;
+        background-color: var(--bg-color) !important;
+        border-color: var(--primary-color) !important;
         border: none !important;
         padding-bottom: 5px !important;
     }
@@ -250,24 +256,24 @@ body {
     }
     /* Styles pagination switcher */
     .gsc-results .gsc-cursor-box .gsc-cursor-page {
-        border-color: #12229d !important;
+        border-color: var(--primary-color) !important;
         border-radius: 50% !important;
         background-color: transparent !important;
-        color: white !important;
+        color: var(--text-color) !important;
         padding: 5px 10px !important;
         margin: 5px;
     }
 
     /* Styles active page pagination switcher */
     .gsc-results .gsc-cursor-box .gsc-cursor-current-page {
-        border-color: #12229d !important;
-        color: #12229d !important;
-        border-bottom: 2px solid #12229d !important;
+        border-color: var(--primary-color) !important;
+        color: var(--primary-color) !important;
+        border-bottom: 2px solid var(--primary-color) !important;
         padding: 5px 10px !important;
     }
     .gsc-results .gsc-cursor {
-        color: #12229d !important;
-        fill: #12229d !important;
+        color: var(--primary-color) !important;
+        fill: var(--primary-color) !important;
     }
     /* makes pagination switcher background transparent */
     .gsc-results {
@@ -275,20 +281,20 @@ body {
     }
     /* colours search phrase clear button */
     .gsst_a .gscb_a {
-        color: #12229d !important;
+        color: var(--primary-color) !important;
         cursor: pointer;
     }
     /* styles sizing and colouring of autocomplete suggestions */
     .gsc-completion-container {
-        color: white !important;
-        border-color: #12229d !important;
+        color: var(--text-color) !important;
+        border-color: var(--primary-color) !important;
         border-radius: 10px !important;
         padding: 10px !important;
     }
     /* styles autocomplete suggestion when hovered */
     .gssb_a:hover {
-        background: #12229d !important;
-        color: white !important;
+        background: var(--primary-color) !important;
+        color: var(--text-color) !important;
     }
     /* removes border-line below filters switcher and removes border on mobile view */
     .gsc-refinementsArea {
@@ -298,19 +304,19 @@ body {
     }
     /* changes colour of scrollable gradient in mobile view */
     .gsc-refinementsGradient {
-        background: linear-gradient(to left,#12229d,rgba(255,255,255,0)) !important;
+        background: linear-gradient(to left,var(--primary-color),rgba(255,255,255,0)) !important;
     }
     /* styles inactive filter tabs */
     .gsc-tabHeader.gsc-tabhInactive, .gsc-refinementHeader.gsc-refinementhInactive {
-        color: white !important;
-        border-color: #121212 !important;
-        background-color: #121212 !important;
+        color: var(--text-color) !important;
+        border-color: var(--bg-color) !important;
+        background-color: var(--bg-color) !important;
     }
     /* styles active filter tabs */
     .gsc-tabHeader.gsc-tabhActive, .gsc-refinementHeader.gsc-refinementhActive {
-        color: #12229d !important;
-        border-color: #12229d !important;
-        background-color: #121212 !important;
+        color: var(--primary-color) !important;
+        border-color: var(--primary-color) !important;
+        background-color: var(--bg-color) !important;
     }
     /* styles tags on search results */
     .gsc-control-cse .gsc-table-result {
@@ -336,25 +342,60 @@ body {
         display: none !important;
       }
 
+    /* Mobile engine switcher */
+    .toggle-container {
+        display: none; /* Initially hide the toggle container */
+        position: absolute;
+        justify-content: center;
+        top: 15px;
+        left: 50%;
+        transform: translateX(-50%);
+        border-radius: 50px;
+        z-index: 1000;
+        width: 80%;
+        padding: 0 10px;
+    }
+    
+    .toggle-btn {
+        display: inline-block;
+        padding: 10px 20px;
+        color: var(--text-color);
+        text-decoration: none;
+        border-radius: 20px;
+        border-width: 5px;
+        transition: background-color 0.3s ease;
+        text-align: center;
+        box-sizing: border-box;
+    }
+    
+    #primary {
+        background-color: var(--primary-color);
+        color: var(--text-color);
+    }
+    
+    .toggle-btn:hover {
+        background-color: var(--secondary-color);
+    }
+
 @media (max-width: 1000px) {
     .maindiv {
         margin: auto;
         position: relative;
         text-align: left;
-        top: 25%;
-        width: 80%;
+        top: 30%;
+        width: 90%;
     }
     
     .maindiv img {
-        max-width: 75%;
-    }
-
-    .terms {
-        display: none;
+        max-width: 90%;
     }
 
     .engine-swticher {
         display: none;
+    }
+
+    .toggle-container {
+        display: flex;
     }
 
     .engine-switcher-2 {
@@ -363,6 +404,20 @@ body {
 
     .engine-swticher-2 .item {
         display: none;
+    }
+
+    /* search input box */
+    .gsc-input-box input.gsc-input, .gsc-input-box, .gsc-input-box-hover, .gsc-input-box-focus {
+        border-radius: 50px !important; /* rounded corner */
+        margin-right: 5px !important;
+    }
+
+    /* Removes gradient from the refinenments area */
+    .gsc-refinementsArea {
+        background-color: var(--bg-color) !important;
+    }
+    .gsc-refinementsGradient {
+        display: none !important;
     }
 
     .games-found {
