@@ -1,4 +1,4 @@
-- # Rave Book Search Engine
+# Rave Book Search Engine
 Rave Book Seach Engine assists users in discovering free eBook and Audiobook downloads.
 All of the websites listed and indexed by the Rave Book Search Engine have been verified to ensure their safety.
 
