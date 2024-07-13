@@ -46,6 +46,13 @@ body {
         color: white;
     }
 
+    /* Fade animation for banner images */
+    .searchlogo {
+        cursor: pointer;
+        transition: opacity 1s ease-in-out; /* Transition for fade effect */
+        opacity: 1; /* Ensures image is visible initially */
+    }
+
 /* Search Engine Switcher */
     .engine-swticher {
         display: flex;
@@ -64,18 +71,50 @@ body {
         text-decoration: none;
     }
 
-/* The alert message box */
-    .alert {
-        padding: 10px;
-        background-color: white; /* Red */
-        color: black;
-        margin-bottom: -5px;
-        text-align: center;
-        border-radius: 10px;
+    /* Notification Center */
+    .engine-swticher-2 {
+        position: fixed;
+        margin-top: 15px;
+        margin-right: 10px;
+        top: 0;
+        right: 0;
+        width: 20%; /* 1/5 of the page width */
+        font-family: Roboto, sans-serif;
+        z-index: 1000; /* Ensure it is on top of other elements */
     }
 
-    .alert a {
-        color: black;
+    .engine-swticher-2 .item {
+        position: relative;
+        color: white; /* Text color */
+        padding: 10px;
+        margin-bottom: 10px; /* Space between items */
+        border: 5px solid white; /* White border */
+        border-radius: 5px; /* Rounded corners */
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); /* Shadow for better visibility */
+        width: 100%; /* Full width of the container */
+        box-sizing: border-box; /* Include padding and border in the width */
+        display: block; /* Ensure items are initially visible */
+    }
+
+    .engine-swticher-2 .item.hidden {
+        display: none; /* Hide items with the 'hidden' class */
+    }
+
+    .engine-swticher-2 .item .close-btn {
+        position: absolute;
+        top: 5px;
+        right: 5px;
+        cursor: pointer;
+        color: white;
+    }
+
+    /* .engine-swticher-2 .item:hover {
+        background-color: #12229d; /* Darker background on hover
+        color: #000000;
+    } */
+
+    #donate-button {
+        margin-top: 3px;
     }
     
     /* The close button */
@@ -95,7 +134,7 @@ body {
         color: red;
     }
 
-/* Games Found Counter */
+/* Corner Box */
     .games-found {
         display: flex;
         bottom: 0;
@@ -162,6 +201,7 @@ body {
         background-color: transparent !important;
         border-color: transparent !important;
     }
+
     /* gets rid of 'x results in x seconds' text */
     .gsc-result-info {
         display: none;
@@ -188,15 +228,15 @@ body {
         display: none;
     }
     /* colours result titles white (including visited results) */
-    /* .gs-webResult.gs-result a.gs-title:link, .gs-webResult.gs-result a.gs-title:link b, .gs-imageResult a.gs-title:link, .gs-imageResult a.gs-title:link b {
+    .gs-webResult.gs-result a.gs-title:link, .gs-webResult.gs-result a.gs-title:link b, .gs-imageResult a.gs-title:link, .gs-imageResult a.gs-title:link b {
         color: white !important;
         font-size: 20px;
-    } */
+    }
     /* styles URL under result titles */
-    /* .gs-promotion .gs-visibleUrl, .gs-webResult .gs-visibleUrl {
+    .gs-promotion .gs-visibleUrl, .gs-webResult .gs-visibleUrl {
         color: green !important;
         font-size: 15px;
-    } */
+    }
     /* colouring of search result background and border */
     .gsc-webResult.gsc-result, .gsc-results .gsc-imageResult {
         background-color: #121212 !important;
@@ -208,26 +248,22 @@ body {
     .gsc-above-wrapper-area {
         border-bottom: black !important;
     }
-    /* styles pagination switcher */
+    /* Styles pagination switcher */
     .gsc-results .gsc-cursor-box .gsc-cursor-page {
         border-color: #12229d !important;
         border-radius: 50% !important;
         background-color: transparent !important;
         color: white !important;
+        padding: 5px 10px !important;
         margin: 5px;
     }
-    /* styles active page pagination switcher */
+
+    /* Styles active page pagination switcher */
     .gsc-results .gsc-cursor-box .gsc-cursor-current-page {
         border-color: #12229d !important;
         color: #12229d !important;
         border-bottom: 2px solid #12229d !important;
-        border-radius: 0px !important;
         padding: 5px 10px !important;
-    }
-    /* adds padding above pagination switcher */
-    .gsc-results .gsc-cursor-box {
-        margin: 20px !important;
-        border: none !important;
     }
     .gsc-results .gsc-cursor {
         color: #12229d !important;
@@ -244,15 +280,15 @@ body {
     }
     /* styles sizing and colouring of autocomplete suggestions */
     .gsc-completion-container {
+        color: white !important;
         border-color: #12229d !important;
         border-radius: 10px !important;
         padding: 10px !important;
     }
     /* styles autocomplete suggestion when hovered */
     .gssb_a:hover {
-        background: #72B2F0 !important;
-        border-radius: 15px;
-        padding: 5px;
+        background: #12229d !important;
+        color: white !important;
     }
     /* removes border-line below filters switcher and removes border on mobile view */
     .gsc-refinementsArea {
@@ -265,17 +301,17 @@ body {
         background: linear-gradient(to left,#12229d,rgba(255,255,255,0)) !important;
     }
     /* styles inactive filter tabs */
-    /* .gsc-tabHeader.gsc-tabhInactive, .gsc-refinementHeader.gsc-refinementhInactive {
+    .gsc-tabHeader.gsc-tabhInactive, .gsc-refinementHeader.gsc-refinementhInactive {
         color: white !important;
         border-color: #121212 !important;
         background-color: #121212 !important;
-    } */
+    }
     /* styles active filter tabs */
-    /* .gsc-tabHeader.gsc-tabhActive, .gsc-refinementHeader.gsc-refinementhActive {
+    .gsc-tabHeader.gsc-tabhActive, .gsc-refinementHeader.gsc-refinementhActive {
         color: #12229d !important;
         border-color: #12229d !important;
         background-color: #121212 !important;
-    } */
+    }
     /* styles tags on search results */
     .gsc-control-cse .gsc-table-result {
         font-family: Roboto !important;
@@ -288,9 +324,9 @@ body {
         margin-left: 3px !important;
     }
     /* colours url on search results */
-    /* .gs-webResult div.gs-visibleUrl {
+    .gs-webResult div.gs-visibleUrl {
         color: lightgreen !important;
-    } */
+    }
     /* removes find more on Google text in mobile view */
     .gcsc-find-more-on-google-root {
         display: none;
@@ -298,91 +334,6 @@ body {
     /* removes ads from the search results */
     .gsc-adBlock {
         display: none !important;
-      }
-
-/* FAB Wheel */
-.adminActions {
-    position: fixed;
-    bottom: 35px; right: 35px;
-    visibility: hidden;
-  }
-
-    .adminButton {
-      height: 60px;
-      width: 60px;
-      background-color: #12229d;
-      border-radius: 50%;
-      display: block;
-      color: #fff;
-      text-align: center;
-      position: relative;
-      z-index: 1;
-    }
-
-      .adminButton i {
-        font-size: 22px;
-      }
-
-    .adminButtons {
-      position: absolute;
-      width: 100%;
-      bottom: 120%;
-      text-align: center;
-    }
-
-      .adminButtons a {
-        display: block;
-        width: 45px;
-        height: 45px;
-        border-radius: 50%;
-        text-decoration: none;
-        margin: 10px auto 0;
-        line-height: 1.15;
-        color: #fff;
-        opacity: 0;
-        visibility: hidden;
-        position: relative;
-        box-shadow: 0 0 5px 1px rgba(51, 51, 51, .3);
-      }
-
-        .adminButtons a:hover {
-          transform: scale(1.05);
-        }
-
-        .adminButtons a:nth-child(1) {background-color: #ff5722; transition: opacity .2s ease-in-out .3s, transform .15s ease-in-out;}
-        .adminButtons a:nth-child(2) {background-color: #03a9f4; transition: opacity .2s ease-in-out .25s, transform .15s ease-in-out;}
-        .adminButtons a:nth-child(3) {background-color: #f44336; transition: opacity .2s ease-in-out .2s, transform .15s ease-in-out;}
-        .adminButtons a:nth-child(4) {background-color: #4CAF50; transition: opacity .2s ease-in-out .15s, transform .15s ease-in-out;}
-
-        .adminActions a i {
-          position: absolute;
-          top: 50%; left: 50%;
-          transform: translate(-50%, -50%);
-        }
-
-    .adminToggle {
-      position: absolute;
-      border-radius: 50%;
-      top: 0; left: 0;
-      margin: 0;
-      width: 100%;
-      height: 100%;
-      cursor: pointer;
-      background-color: transparent;
-      border: none;
-      outline: none;
-      z-index: 2;
-      transition: box-shadow .2s ease-in-out;
-      box-shadow: 0 3px 5px 1px rgba(51, 51, 51, .3);
-    }
-
-      .adminToggle:hover {
-        box-shadow: 0 3px 6px 2px rgba(51, 51, 51, .3);
-      }
-
-      .adminToggle:checked ~ .adminButtons a {
-        opacity: 1;
-        visibility: visible;
       }
 
 @media (max-width: 1000px) {
@@ -406,49 +357,15 @@ body {
         display: none;
     }
 
+    .engine-switcher-2 {
+        display: none;
+    }
+
+    .engine-swticher-2 .item {
+        display: none;
+    }
+
     .games-found {
         display: none;
     }
-
-    .alert {
-        display: none;
-    }
-
-    /* search button */
-    .gsc-search-button .gsc-search-button-v2 {
-        border-radius: 50%;
-        border-color: #12229d;
-        background-color: #12229d;
-        height: 50px;
-        width: 50px;
-        margin: auto;
-        padding:10px !important;
-        box-shadow: 0 0 10px black;
-    }
-
-    /* search input box */
-    .gsc-input-box input.gsc-input, .gsc-input-box, .gsc-input-box-hover, .gsc-input-box-focus {
-        border-radius: 25px !important; /* rounded corner */
-        border-color: #12229d !important;
-        border-width: 5px !important;
-        background-color: #121212 !important; /* inner background colour */
-        color: white;
-        font-family: 'Roboto';
-        font-size: 20px;
-        margin-right: 5px;
-    }
-
-    /* results pagination design */
-    .gsc-cursor-page {
-        display: none !important;
-        font-size: 1em;
-        padding: 5px 3px !important;
-        overflow: hidden;
-    }
-
-@media (max-width: 1000px) {
-    .adminActions {
-        visibility: visible;
-    }
-}
 }

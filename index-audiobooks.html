@@ -4,7 +4,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Rave Book Search</title>
+    <title>Rave Audiobook Search</title>
 
     <link rel="stylesheet" href="css/index.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -13,7 +13,6 @@
     <meta name="author" content="Rave Book Search">
     <meta name="robots" content="index, follow">
     <meta name="googlebot" content="index, follow">
-    <meta name="msvalidate.01" content="YOUR_BING_VERIFICATION_CODE_HERE">
     <meta property="og:title" content="Rave Book Search">
     <meta property="og:description" content="Find the safest free download links to your favorite eBooks and Audiobooks">
     <meta property="og:image" content="https://ravebooksearch.com/img/ravesearch.png">
@@ -33,14 +32,15 @@
             <a href="https://ravebooksearch.com">> Book Search</a>
             <a href="https://ravesoftwaresearch.pages.dev">Software Search</a>
         </div>
-        <!-- Search Box -->
-        <div class="maindiv">
-            <div class="searchlogo">
-                <img class="searchlogo" src="img/search-logo.png" onclick="location.href='index-audiobooks.html';">
-                <div class="tips">For more preciose results, include the Author Name and prefixes such as 'The' and 'A' with the Book Titles</div>
+
+        <!-- Notification Centre -->
+        <div class="engine-swticher-2">
+            <!-- First Item: Donation message and button-->
+            <div class="item">
                 <div id="donate-button-container">
                     <a class="tips">If you think this website has helped you, please consider donating...</a>
                     <div id="donate-button"></div>
+                    <!-- Script for Donation button, provided by PayPal -->
                     <script src="https://www.paypalobjects.com/donate/sdk/donate-sdk.js" charset="UTF-8"></script>
                     <script>
                     PayPal.Donation.Button({
@@ -53,7 +53,79 @@
                     }
                     }).render('#donate-button');
                     </script>
-                    </div>    
+                </div>
+                <span class="close-btn">X</span>
+            </div>
+            <div class="item">
+                <span>It is recommended to use an AdBlocker such as uBlock Origin when visiting download pages.</span>
+                <span class="close-btn">X</span>
+            </div>
+            <div class="item">
+                <span>If the search result is a website homepage, it indicates that the website hosts the book, and you may need to search within the site to locate the download page.</span>
+                <span class="close-btn">X</span>
+            </div>
+            <div class="item">
+                <span>For more precise results, include the Author Name and prefixes such as 'The' and 'A' with the Book Titles</span>
+                <span class="close-btn">X</span>
+            </div>
+        </div>
+        <!-- Notification Centre javascript, controls cross-refresh hiding of items -->
+        <script>
+            document.addEventListener("DOMContentLoaded", function() {
+                // Retrieve hidden items from localStorage
+                let hiddenItems = JSON.parse(localStorage.getItem("hiddenItems")) || [];
+    
+                // Get all items
+                const items = document.querySelectorAll(".engine-swticher-2 .item");
+    
+                // Loop through items and add 'hidden' class if in hiddenItems array
+                items.forEach(item => {
+                    if (hiddenItems.includes(item.textContent.trim())) {
+                        item.classList.add("hidden");
+                    }
+                });
+    
+                // Add click event listener to close buttons
+                const closeButtons = document.querySelectorAll(".engine-swticher-2 .close-btn");
+                closeButtons.forEach(button => {
+                    button.addEventListener("click", function() {
+                        const item = this.parentNode;
+                        item.classList.add("hidden");
+    
+                        // Add item text to hiddenItems array
+                        const itemName = item.textContent.trim();
+                        if (!hiddenItems.includes(itemName)) {
+                            hiddenItems.push(itemName);
+                        }
+    
+                        // Save updated hiddenItems array to localStorage
+                        localStorage.setItem("hiddenItems", JSON.stringify(hiddenItems));
+                    });
+                });
+            });
+        </script>
+
+        <!-- Search Box -->
+        <div class="maindiv">
+            <div class="searchlogo">
+                <img id="searchlogo" class="searchlogo" src="img/search-logo.png" onclick="location.href='index-audiobooks.html';">
+                <!-- Script to cycle between banner images with a fade effect in between -->
+                <script>
+                    var images = ['img/search-logo.png', 'img/search-logo-2.png'];
+                    var index = 0;
+                    var logo = document.getElementById("searchlogo");
+
+                    function changeImage() {
+                        logo.style.opacity = 0; // Start fade out
+                        setTimeout(function() {
+                            index = (index + 1) % images.length; // Loop back to the first image
+                            logo.src = images[index];
+                            logo.style.opacity = 1; // Fade back in
+                        }, 1000); // Match this timeout with the CSS transition duration
+                    }
+
+                    setInterval(changeImage, 6000); // Changes image every 6 seconds
+                </script>  
             </div>
             <script>
                 (function() {
@@ -78,38 +150,16 @@
             </div>
         </div>
     </div>
+
     <!-- Games Found Counter -->
     <div class="games-found">
-        <a class="count">0</a>
-        <a>Books Found</a>
+        <a></a>
     </div>
-    <script type="text/javascript">
-		function updateCounter() {
-		    fetch('https://api.countapi.xyz/update/ravebooksearch/ravebooksearch/?amount=1')
-		        .then(res => res.json())
-		        .then(data => counterElement.innerHTML = data.value)
-		}
-
-		updateCounter()
-
-		counterElement = document.getElementsByClassName('count')[0];
-	</script>
+      
     <!-- Terms of Use, Privacy Policy and GitHub Link -->
     <div class="terms">
-        <a href="https://github.com/IdleEndeavor/booksearch">GitHub |</a>
-        <a href="https://github.com/IdleEndeavor/booksearch#privacy-policy">Privacy Policy |</a>
-        <a href="https://github.com/IdleEndeavor/booksearch#terms-of-use">Terms of Use</a>
+        <a href="https://github.com/IdleEndeavor/booksearch">GitHub</a>
     </div>
 
-    <!-- FAB Wheel -->
-	<div class="adminActions">
-		<input type="checkbox" name="adminToggle" class="adminToggle" />
-		<a class="adminButton" href="#!"><i class="material-icons">lightbulb</i></a>
-		<div class="adminButtons">
-			<a href="https://github.com/IdleEndeavor/booksearch" title="GitHub"><i class="material-icons">code</i></a>
-			<a href="https://github.com/IdleEndeavor/booksearch#terms-of-use" title="Terms"><i class="material-icons">gavel</i></a>
-			<a href="https://github.com/IdleEndeavor/booksearch#privacy-policy" title="Privacy"><i class="material-icons">security</i></a>
-		</div>
-	</div>
 </body>
 </html>
